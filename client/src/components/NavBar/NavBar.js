@@ -10,7 +10,9 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand>
+          <Link to="/">Logo Goes Here</Link>
+        </Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link>
             <Link to="/">Home</Link>
@@ -20,41 +22,46 @@ class NavBar extends Component {
           </Nav.Link>
 
           <NavDropdown title="Careers" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
+            <NavDropdown.Item>
+              <Link to="/careers/careers">Careers</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
+            <NavDropdown.Item>
+              <Link to="/careers/finding-talent">Find Talent</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/careers/join-our-team">Join our Team</Link>
             </NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Expertise" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
+            <NavDropdown.Item>
+              <Link to="/expertise/accounting">Accounting</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
+            <NavDropdown.Item>
+              <Link to="/expertise/engineering">Engineering</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/expertise/finance">Finance</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/expertise/healthcare">Healthcare</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/expertise/IT">I.T.</Link>
             </NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Service" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
+            <NavDropdown.Item>
+              <Link to="/service/contract">Contract</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
+            <NavDropdown.Item>
+              <Link to="/service/contract-to-hire">Contract to Hire</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/service/direct-hire">Direct Hire</Link>
             </NavDropdown.Item>
           </NavDropdown>
-
         </Nav>
       </Navbar>
     );
