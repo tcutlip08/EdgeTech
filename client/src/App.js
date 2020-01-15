@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Blog from "./pages/Blog/Blog";
 import Careers from "./pages/Careers/Careers/Careers";
 import FindingTalent from "./pages/Careers/FindingTalent/FindingTalent";
 import JoinOurTeam from "./pages/Careers/JoinOurTeam/JoinOurTeam";
@@ -20,6 +21,7 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/blog" component={Blog} />
         <Route path="/careers/careers" component={Careers} />
         <Route path="/careers/finding-talent" component={FindingTalent} />
         <Route path="/careers/join-our-team" component={JoinOurTeam} />
