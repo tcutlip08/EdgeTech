@@ -1,0 +1,32 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm start\""
+  },
+  "author": "your name",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7",
+    "nodemon": "^2.0.2"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "project_name"
+  }
+}
