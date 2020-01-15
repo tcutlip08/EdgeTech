@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
@@ -10,9 +11,12 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar bg="light" variant="light">
-        <Navbar.Brand>
-          <Link to="/">Logo Goes Here</Link>
-        </Navbar.Brand>
+        <Col>
+          <Navbar.Brand>
+            <Link to="/">Logo Goes Here</Link>
+          </Navbar.Brand>
+        </Col>
+
         <Nav className="mr-auto">
           <Nav.Link>
             <Link to="/">Home</Link>
