@@ -24,7 +24,9 @@ class NavBar extends Component {
           <Nav.Link>
             <Link to="/contact-us">Contact Us</Link>
           </Nav.Link>
-
+          <Nav.Link>
+            <Link to="/blog">Blog</Link>
+          </Nav.Link>
           <NavDropdown title="Careers" id="collasible-nav-dropdown">
             <NavDropdown.Item>
               <Link to="/careers/careers">Careers</Link>
