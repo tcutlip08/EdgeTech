@@ -22,9 +22,6 @@ class NavBar extends Component {
             <Link to="/">Home</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/contact-us">Contact Us</Link>
-          </Nav.Link>
-          <Nav.Link>
             <Link to="/blog">Blog</Link>
           </Nav.Link>
           <NavDropdown title="Careers" id="collasible-nav-dropdown">
@@ -68,6 +65,11 @@ class NavBar extends Component {
               <Link to="/service/direct-hire">Direct Hire</Link>
             </NavDropdown.Item>
           </NavDropdown>
+          <Nav className="mr-auto">
+            <Nav.Link>
+              <Link to="/contact-us">Contact Us</Link>
+            </Nav.Link>
+          </Nav>
         </Nav>
       </Navbar>
     );
