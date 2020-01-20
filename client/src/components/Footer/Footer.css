@@ -1,0 +1,5 @@
+.footer-outer {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+}
