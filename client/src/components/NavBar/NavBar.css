@@ -1,0 +1,22 @@
+#navbar {
+    margin-bottom: 10px;
+    background-color: #ffffff !important;
+}
+
+#nav {
+    margin-top: 10px;
+    margin-right: 50px !important;
+}
+
+#navBrand {
+    margin: auto;
+}
+
+#logo {
+    width: 250px;
+    margin-left: 20px;
+}
+
+#home {
+    font-weight: bold;
+}
