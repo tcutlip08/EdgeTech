@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./Healthcare.css";
 
 class Healthcare extends Component {
   render() {
     return (
       <div className="Healthcare">
-        <NavBar />
         <div>
           I was gonna take the time to sit down and write you a little letter.
           But I thought a song would probably be a little better. Instead of a
@@ -26,7 +23,6 @@ class Healthcare extends Component {
           cold or warm. Just lettin' you know that you're not alone. Holla if
           you feel like you've been down the same road.
         </div>
-        <Footer />
       </div>
     );
   }

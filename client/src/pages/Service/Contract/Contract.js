@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./Contract.css";
 
 class Contract extends Component {
   render() {
     return (
       <div className="Contract">
-        <NavBar />
         <div>
           I was gonna take the time to sit down and write you a little letter.
           But I thought a song would probably be a little better. Instead of a
@@ -27,7 +24,6 @@ class Contract extends Component {
           got a couple of screws up in my head loose. But no worse than what's
           goin' on in your parents' bedrooms.
         </div>
-        <Footer />
       </div>
     );
   }

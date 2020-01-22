@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./Engineering.css";
 
 class Engineering extends Component {
   render() {
     return (
       <div className="Engineering">
-        <NavBar />
         <div>
           Feminist women love Eminem. "Chicka, chicka, chicka, Slim Shady, I'm
           sick of him. Look at him, walkin' around, grabbin' his you-know-what.
@@ -23,7 +20,6 @@ class Engineering extends Component {
           weather, cold or warm. Just lettin' you know that you're not alone.
           Holla if you feel like you've been down the same road.
         </div>
-        <Footer />
       </div>
     );
   }

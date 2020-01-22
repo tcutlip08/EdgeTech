@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./ContractHire.css";
 
 class ContractHire extends Component {
   render() {
     return (
       <div className="ContractHire">
-        <NavBar />
         <div>
           We're gonna rock this house until we knock it down. So turn the volume
           loud. 'Cause it's mayhem 'til the A.M.. So, baby, make just like
@@ -27,7 +24,6 @@ class ContractHire extends Component {
           in my head loose. But no worse than what's goin' on in your parents'
           bedrooms.
         </div>
-        <Footer />
       </div>
     );
   }

@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./JoinOurTeam.css";
 
 class JoinOurTeam extends Component {
   render() {
     return (
       <div className="JoinOurTeam">
-        <NavBar />
         <div>
           When you walked through the door. It was clear to me (Clear to me).
           You’re the one they adore. Who they came to see (Who they came to
@@ -24,7 +21,6 @@ class JoinOurTeam extends Component {
           ain't that hard, that hard. Everybody want the key and the secret. To
           rap immortality like I have got.
         </div>
-        <Footer />
       </div>
     );
   }

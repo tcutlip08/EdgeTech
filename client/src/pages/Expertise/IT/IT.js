@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./IT.css";
 
 class IT extends Component {
   render() {
     return (
       <div className="IT">
-        <NavBar />
         <div>
           My tea's gone cold. I'm wondering why I got out of bed at all. The
           morning rain clouds up my window. And I can't see at all. And even if
@@ -24,7 +21,6 @@ class IT extends Component {
           (Everybody wants you). Player, who can really blame you? (Who can
           really blame you?). We’re the ones who made you.
         </div>
-        <Footer />
       </div>
     );
   }

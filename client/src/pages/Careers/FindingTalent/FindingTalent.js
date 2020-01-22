@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./FindingTalent.css";
 
 class FindingTalent extends Component {
   render() {
     return (
       <div className="FindingTalent">
-        <NavBar />
         <div>
           Dis be FindingTalent PageBagpipes from Baghdad. What's going through
           my mind. Half the time, when I rhyme, or blowing up like. Bagpipes
@@ -25,7 +22,6 @@ class FindingTalent extends Component {
           guess we are who we are. Headlights shining in the dark night, I drive
           on. Maybe we took this too far.
         </div>
-        <Footer />
       </div>
     );
   }

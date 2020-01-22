@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./Accounting.css";
 
 class Accounting extends Component {
   render() {
     return (
       <div className="Accounting">
-        <NavBar />
         <div>
           I'm Slim Shady, yes, I'm the real Shady. All you other Slim Shadys are
           just imitating. So won't the real Slim Shady please stand up. Please
@@ -25,7 +22,6 @@ class Accounting extends Component {
           before we kick the bucket. Life's too short to not go for broke. So
           everybody, everybody, go berserk, grab your vial, yeah.
         </div>
-        <Footer />
       </div>
     );
   }

@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./DirectHire.css";
 
 class DirectHire extends Component {
   render() {
     return (
       <div className="DirectHire">
-        <NavBar />
         <div>
           So bad, I’m so good that I’m so bad. Guarantee I’ll be the greatest
           thing you ever had. ‘Cause you ain't never met nobody like me. And you
@@ -25,7 +22,6 @@ class DirectHire extends Component {
           picture on my wall. It reminds me that it's not so bad, it's not so
           bad.
         </div>
-        <Footer />
       </div>
     );
   }

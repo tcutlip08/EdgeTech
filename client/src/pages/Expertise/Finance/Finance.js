@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../../../components/NavBar/NavBar";
-import Footer from "../../../components/Footer/Footer";
 import "./Finance.css";
 
 class Finance extends Component {
   render() {
     return (
       <div className="Finance">
-        <NavBar />
         <div>
           Bagpipes from Baghdad. What's going through my mind. Half the time,
           when I rhyme, or blowing up like. Bagpipes from Baghdad. Somebody turn
@@ -24,7 +21,6 @@ class Finance extends Component {
           though.". Yeah, I probably got a couple of screws up in my head loose.
           But no worse than what's goin' on in your parents' bedrooms.
         </div>
-        <Footer />
       </div>
     );
   }
