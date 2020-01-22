@@ -17,6 +17,6 @@
     margin-left: 20px;
 }
 
-#home {
-    font-weight: bold;
+#home, #contact, #blog {
+    color: gray;
 }
