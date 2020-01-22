@@ -185,8 +185,8 @@ class Footer extends Component {
               <p>
                 <a className="ct-u-motive-color" href="" target="_blank">
                   Web Design
-                </a>{" "}
-                by DigitalUs on{" "}
+                </a>
+                by DigitalUs on
                 <a href="" target="_blank">
                   Solodev CMS
                 </a>

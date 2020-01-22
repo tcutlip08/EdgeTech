@@ -4,6 +4,29 @@ import NavBar from "../../components/NavBar/NavBar";
 import "./ContactUs.css";
 
 class ContactUs extends Component {
+  state = {
+    fname: "",
+    lname: "",
+    contactEmail: "",
+    contactPhone: "",
+    comment: ""
+  };
+
+  componentDidUpdate() {
+    // console.log(this.state);
+  }
+
+  handleInputChange = event => {
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value
+    });
+  };
+
+  handleSubmit() {
+    console.log(this.state);
+  }
+
   render() {
     return (
       <div className="ContactUs">
@@ -22,6 +45,7 @@ class ContactUs extends Component {
                       id="fname"
                       name="fname"
                       placeholder="First Name&nbsp;*"
+                      onChange={this.handleInputChange}
                       type="text"
                       required
                     />
@@ -35,6 +59,7 @@ class ContactUs extends Component {
                       id="lname"
                       name="lname"
                       placeholder="Last Name&nbsp;*"
+                      onChange={this.handleInputChange}
                       type="text"
                       required
                     />
@@ -48,6 +73,7 @@ class ContactUs extends Component {
                       id="contactEmail"
                       name="contactEmail"
                       placeholder="Email&nbsp;*"
+                      onChange={this.handleInputChange}
                       type="text"
                       required
                     />
@@ -61,6 +87,7 @@ class ContactUs extends Component {
                       id="contactPhone"
                       name="contactPhone"
                       placeholder="Phone&nbsp;*"
+                      onChange={this.handleInputChange}
                       type="text"
                       required
                     />
@@ -74,11 +101,16 @@ class ContactUs extends Component {
                       id="comment"
                       name="comment"
                       placeholder="Type your message here&nbsp;*"
+                      onChange={this.handleInputChange}
                       rows="6"
                       required
                     ></textarea>
                   </div>
-                  <button className="btn btn-accent" type="submit">
+                  <button
+                    className="btn btn-accent"
+                    type="submit"
+                    onSubmit={this.handleSubmit}
+                  >
                     Submit
                   </button>
                 </form>
@@ -86,7 +118,7 @@ class ContactUs extends Component {
               <div className="col-md-4 contact-info">
                 <div className="phone">
                   <h2>Call</h2>
-                  <a href="tel:+5555555555">555.555.5555</a>
+                  <a href="tel:+1-800-867-5309">Call Now</a>
                 </div>
                 <div className="email">
                   <h2>Email</h2>
