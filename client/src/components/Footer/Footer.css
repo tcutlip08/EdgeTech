@@ -1,4 +1,6 @@
 .footer-outer {
+    /* justify-content: center; */
+    text-align: center;
     display: flex;
     position: sticky;
     flex-direction: column;

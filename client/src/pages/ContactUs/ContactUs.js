@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "./ContactUs.css";
 import SocialLink from "../../components/SocialLink/SocialLink";
 import Facebook from "../../assets/img/png/facebook.png";
@@ -30,6 +31,7 @@ class ContactUs extends Component {
             www.flaticon.com
           </a>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./Healthcare.css";
 
 class Healthcare extends Component {
@@ -25,6 +26,7 @@ class Healthcare extends Component {
           cold or warm. Just lettin' you know that you're not alone. Holla if
           you feel like you've been down the same road.
         </div>
+        <Footer />
       </div>
     );
   }

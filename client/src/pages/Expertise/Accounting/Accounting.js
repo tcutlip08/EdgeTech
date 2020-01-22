@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./Accounting.css";
 
 class Accounting extends Component {
@@ -24,6 +25,7 @@ class Accounting extends Component {
           before we kick the bucket. Life's too short to not go for broke. So
           everybody, everybody, go berserk, grab your vial, yeah.
         </div>
+        <Footer />
       </div>
     );
   }

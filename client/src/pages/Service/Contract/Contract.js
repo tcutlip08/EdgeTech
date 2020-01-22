@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./Contract.css";
 
 class Contract extends Component {
@@ -26,6 +27,7 @@ class Contract extends Component {
           got a couple of screws up in my head loose. But no worse than what's
           goin' on in your parents' bedrooms.
         </div>
+        <Footer />
       </div>
     );
   }

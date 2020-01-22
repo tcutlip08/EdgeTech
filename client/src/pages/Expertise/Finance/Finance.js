@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./Finance.css";
 
 class Finance extends Component {
@@ -23,6 +24,7 @@ class Finance extends Component {
           though.". Yeah, I probably got a couple of screws up in my head loose.
           But no worse than what's goin' on in your parents' bedrooms.
         </div>
+        <Footer />
       </div>
     );
   }

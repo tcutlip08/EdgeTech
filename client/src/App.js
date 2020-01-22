@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Accounting from "./pages/Expertise/Accounting/Accounting";
 import Blog from "./pages/Blog/Blog";
 import Careers from "./pages/Careers/Careers/Careers";
-import FindingTalent from "./pages/Careers/FindingTalent/FindingTalent";
-import JoinOurTeam from "./pages/Careers/JoinOurTeam/JoinOurTeam";
-import Accounting from "./pages/Expertise/Accounting/Accounting";
-import Engineering from "./pages/Expertise/Engineering/Engineering";
-import Finance from "./pages/Expertise/Finance/Finance";
-import Healthcare from "./pages/Expertise/Healthcare/Healthcare";
-import IT from "./pages/Expertise/IT/IT";
+import ContactUs from "./pages/ContactUs/ContactUs";
 import Contract from "./pages/Service/Contract/Contract";
 import ContractHire from "./pages/Service/ContractHire/ContractHire";
 import DirectHire from "./pages/Service/DirectHire/DirectHire";
-import ContactUs from "./pages/ContactUs/ContactUs";
-import Landing from "./pages/Landing/Landing";
 import E404 from "./pages/Error";
+import Engineering from "./pages/Expertise/Engineering/Engineering";
+import Finance from "./pages/Expertise/Finance/Finance";
+import FindingTalent from "./pages/Careers/FindingTalent/FindingTalent";
+import Healthcare from "./pages/Expertise/Healthcare/Healthcare";
+import IT from "./pages/Expertise/IT/IT";
+import JoinOurTeam from "./pages/Careers/JoinOurTeam/JoinOurTeam";
+import Landing from "./pages/Landing/Landing";
 import "./App.css";
 
 function App() {

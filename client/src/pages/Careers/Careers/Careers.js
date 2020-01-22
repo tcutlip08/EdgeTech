@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./Careers.css";
 
 class Careers extends Component {
@@ -26,6 +27,7 @@ class Careers extends Component {
           friend?. Let me tell you the whole story of Shady’s origin.Dis be
           Careers Page
         </div>
+        <Footer />
       </div>
     );
   }

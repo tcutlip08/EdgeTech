@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./DirectHire.css";
 
 class DirectHire extends Component {
@@ -24,6 +25,7 @@ class DirectHire extends Component {
           picture on my wall. It reminds me that it's not so bad, it's not so
           bad.
         </div>
+        <Footer />
       </div>
     );
   }

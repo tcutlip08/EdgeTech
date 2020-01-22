@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../../components/NavBar/NavBar";
+import Footer from "../../../components/Footer/Footer";
 import "./JoinOurTeam.css";
 
 class JoinOurTeam extends Component {
@@ -23,6 +24,7 @@ class JoinOurTeam extends Component {
           ain't that hard, that hard. Everybody want the key and the secret. To
           rap immortality like I have got.
         </div>
+        <Footer />
       </div>
     );
   }

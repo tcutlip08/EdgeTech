@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "./Blog.css";
 
 class Blog extends Component {
@@ -24,6 +25,7 @@ class Blog extends Component {
           floor like Pam like Tommy just burst in the door. And started whoopin'
           her ass worse than before.
         </div>
+        <Footer />
       </div>
     );
   }
