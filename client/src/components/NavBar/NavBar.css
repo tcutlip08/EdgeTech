@@ -1,5 +1,6 @@
 #navbar {
     margin-bottom: 10px;
+    background-color: #ffffff !important;
 }
 
 #nav {
@@ -9,4 +10,13 @@
 
 #navBrand {
     margin: auto;
+}
+
+#logo {
+    width: 250px;
+    margin-left: 20px;
+}
+
+#home {
+    font-weight: bold;
 }

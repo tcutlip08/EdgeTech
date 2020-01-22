@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Col from "react-bootstrap/Col";
-import NavLogo from "../../assets/img/navLogo.jpg";
+import Logo from "../../assets/img/Logo.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
@@ -16,62 +16,62 @@ class NavBar extends Component {
           <Col>
             <Navbar.Brand id="navBrand">
               <Link to="/">
-                <img src={NavLogo} />
+                <img id="logo" src={Logo} />
               </Link>
             </Navbar.Brand>
           </Col>
 
           <Nav className="mr-auto" id="nav">
             <Nav.Link>
-              <Link to="/">Home</Link>
+              <Link id="home" to="/">Home</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/blog">Blog</Link>
+              <Link id="blog" to="/blog">Blog</Link>
             </Nav.Link>
             <NavDropdown title="Careers" id="collasible-nav-dropdown">
               <NavDropdown.Item>
-                <Link to="/careers/careers">Careers</Link>
+                <Link id="careers" to="/careers/careers">Careers</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/careers/finding-talent">Find Talent</Link>
+                <Link id="talent" to="/careers/finding-talent">Find Talent</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/careers/join-our-team">Join our Team</Link>
+                <Link id="team" to="/careers/join-our-team">Join our Team</Link>
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Expertise" id="collasible-nav-dropdown">
               <NavDropdown.Item>
-                <Link to="/expertise/accounting">Accounting</Link>
+                <Link id="accounting" to="/expertise/accounting">Accounting</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/expertise/engineering">Engineering</Link>
+                <Link id="engineering" to="/expertise/engineering">Engineering</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/expertise/finance">Finance</Link>
+                <Link id="finance" to="/expertise/finance">Finance</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/expertise/healthcare">Healthcare</Link>
+                <Link id="healthcare" to="/expertise/healthcare">Healthcare</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/expertise/IT">I.T.</Link>
+                <Link id="it" to="/expertise/IT">I.T.</Link>
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Service" id="collasible-nav-dropdown">
               <NavDropdown.Item>
-                <Link to="/service/contract">Contract</Link>
+                <Link id="contract" to="/service/contract">Contract</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/service/contract-to-hire">Contract to Hire</Link>
+                <Link id="contractHire" to="/service/contract-to-hire">Contract to Hire</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/service/direct-hire">Direct Hire</Link>
+                <Link id="directHire" to="/service/direct-hire">Direct Hire</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav className="mr-auto">
               <Nav.Link>
-                <Link to="/contact-us">Contact Us</Link>
+                <Link id="contact" to="/contact-us">Contact Us</Link>
               </Nav.Link>
             </Nav>
           </Nav>
