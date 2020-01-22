@@ -7,7 +7,7 @@ class Healthcare extends Component {
   render() {
     return (
       <div className="Healthcare">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           I was gonna take the time to sit down and write you a little letter.
           But I thought a song would probably be a little better. Instead of a

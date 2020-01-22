@@ -7,7 +7,7 @@ class ContractHire extends Component {
   render() {
     return (
       <div className="ContractHire">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           We're gonna rock this house until we knock it down. So turn the volume
           loud. 'Cause it's mayhem 'til the A.M.. So, baby, make just like

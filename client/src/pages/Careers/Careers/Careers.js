@@ -7,7 +7,7 @@ class Careers extends Component {
   render() {
     return (
       <div className="Careers">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           I’m the American Dream. I’m the definiton of white trash ballin’. I’m
           right back on 'em. With a (chicka chicka chicka) I can’t call it. Same

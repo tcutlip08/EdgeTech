@@ -7,7 +7,7 @@ class Finance extends Component {
   render() {
     return (
       <div className="Finance">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           Bagpipes from Baghdad. What's going through my mind. Half the time,
           when I rhyme, or blowing up like. Bagpipes from Baghdad. Somebody turn

@@ -7,7 +7,7 @@ class DirectHire extends Component {
   render() {
     return (
       <div className="DirectHire">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           So bad, I’m so good that I’m so bad. Guarantee I’ll be the greatest
           thing you ever had. ‘Cause you ain't never met nobody like me. And you

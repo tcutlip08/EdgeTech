@@ -7,7 +7,7 @@ class Engineering extends Component {
   render() {
     return (
       <div className="Engineering">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           Feminist women love Eminem. "Chicka, chicka, chicka, Slim Shady, I'm
           sick of him. Look at him, walkin' around, grabbin' his you-know-what.

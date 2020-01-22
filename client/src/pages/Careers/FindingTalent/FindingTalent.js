@@ -7,7 +7,7 @@ class FindingTalent extends Component {
   render() {
     return (
       <div className="FindingTalent">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           Dis be FindingTalent PageBagpipes from Baghdad. What's going through
           my mind. Half the time, when I rhyme, or blowing up like. Bagpipes

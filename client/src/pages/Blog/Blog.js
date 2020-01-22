@@ -7,7 +7,7 @@ class Blog extends Component {
   render() {
     return (
       <div className="Blog">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           I never meant to give you mushrooms, girl. I never meant to bring you
           to my world. Now you sitting in the corner crying. And now it's my
