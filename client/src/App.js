@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 import Blog from "./pages/Blog/Blog";
 import Careers from "./pages/Careers/Careers/Careers";
 import FindingTalent from "./pages/Careers/FindingTalent/FindingTalent";
@@ -20,6 +22,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
+      <NavBar />
       <Switch>
         <Route path="/blog" component={Blog} />
         <Route path="/careers/careers" component={Careers} />
@@ -37,6 +40,7 @@ function App() {
         <Route exact path="/" component={Landing} />
         <Route path="*" component={E404} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

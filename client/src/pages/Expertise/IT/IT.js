@@ -7,7 +7,7 @@ class IT extends Component {
   render() {
     return (
       <div className="IT">
-        <NavBar />
+        {/* <NavBar /> */}
         <div>
           My tea's gone cold. I'm wondering why I got out of bed at all. The
           morning rain clouds up my window. And I can't see at all. And even if
