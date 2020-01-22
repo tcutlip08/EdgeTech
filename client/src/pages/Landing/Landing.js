@@ -11,7 +11,7 @@ class Landing extends Component {
         <div className="container">
           <div className="row">
             <Col>
-              <img src={Monkey} />
+              <img src={Monkey} id="monkey" />
             </Col>
           </div>
         </div>
