@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
-// import SocialLink from "../SocialLink/SocialLink";
+import SocialLink from "../SocialLink/SocialLink";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 
@@ -136,7 +136,7 @@ class Footer extends Component {
                 </address>
               </div>
               <Col>
-                {/*<SocialLink
+                <SocialLink
                   link="#"
                   image={
                     "https://www.solodev.com/assets/footer/facebook-white.png"
@@ -157,7 +157,7 @@ class Footer extends Component {
                   image={
                     "https://www.solodev.com/assets/footer/twitter-white.png"
                   }
-                />*/}
+                />
                 {/* <SocialLink link="#" image={LinkedIn} /> */}
               </Col>
             </div>
