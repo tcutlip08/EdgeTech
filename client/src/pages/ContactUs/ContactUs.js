@@ -17,14 +17,22 @@ class ContactUs extends Component {
       from_phone: ""
     },
     service_id: "tcutlip08",
-    template_id: "template_8f4SePdi"
+    template_id: "template_8f4SePdi",
+    user_id: "user_yUEQjWRM02YZWiH5bCVvZ"
   };
 
+  componentDidMount() {}
+
   componentDidUpdate() {
-    console.log(this.state.template_params);
-    // if (this.state.template_params) {
-    // emailjs.send(this.service_id, this.template_id, this.template_params);
-    // }
+    if (this.state.template_params.from_name) {
+      if (this.state.template_params.from_email) {
+        if (this.state.template_params.from_phone) {
+          if (this.state.template_params.from_message) {
+            this.sendEmail();
+          }
+        }
+      }
+    }
   }
 
   handleInputChange = event => {
@@ -45,23 +53,38 @@ class ContactUs extends Component {
         from_phone: this.state.contactPhone
       }
     });
-
-    // emailjs
-    //   .send(
-    //     "<YOUR SERVICE ID>",
-    //     "<YOUR TEMPLATE ID>",
-    //     templateParams,
-    //     "tcutlip08"
-    //   )
-    //   .then(
-    //     response => {
-    //       console.log("SUCCESS!", response.status, response.text);
-    //     },
-    //     err => {
-    //       console.log("FAILED...", err);
-    //     }
-    //   );
   };
+
+  sendEmail() {
+    emailjs
+      .send(
+        this.state.service_id,
+        this.state.template_id,
+        this.state.template_params,
+        this.state.user_id
+      )
+      .then(
+        response => {
+          this.setState({
+            fname: "",
+            lname: "",
+            contactEmail: "",
+            contactPhone: "",
+            comment: "",
+            template_params: {
+              from_name: "",
+              from_message: "",
+              from_email: "",
+              from_phone: ""
+            }
+          });
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        err => {
+          console.log("FAILED...", err);
+        }
+      );
+  }
 
   render() {
     return (
