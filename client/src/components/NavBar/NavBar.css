@@ -1,11 +1,13 @@
 #navbar {
-    margin-bottom: 10px;
-    background-color: #ffffff !important;
+    /* padding: -10%; */
+    background-color: white !important;
+    border-bottom: #7a7a7a !important;
 }
 
 #nav {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: 50px !important;
+    align-content: flex-end;
 }
 
 #navBrand {
@@ -13,10 +15,18 @@
 }
 
 #logo {
-    width: 250px;
-    margin-left: 20px;
+    margin-left: 50px;
+    width: 300px;
+    align-content: flex-start;
+    overflow: auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #home, #contact, #blog {
-    color: gray;
+    color: #7a7a7a ;
+}
+
+#careers, #talent, #team, #accounting, #engineering, #finance, #healthcare, #it, #contract, #contractHire, #directHire {
+    color:#7a7a7a;
 }

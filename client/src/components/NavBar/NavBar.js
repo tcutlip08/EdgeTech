@@ -12,7 +12,7 @@ class NavBar extends Component {
   render() {
     return (
       <>
-        <Navbar bg="light" variant="light" id="navbar">
+        <Navbar id="navbar">
           <Col>
             <Navbar.Brand id="navBrand">
               <Link to="/">
@@ -32,7 +32,7 @@ class NavBar extends Component {
                 Blog
               </Link>
             </Nav.Link>
-            <NavDropdown title="Careers" id="collasible-nav-dropdown">
+            <NavDropdown title="Careers">
               <NavDropdown.Item>
                 <Link id="careers" to="/careers/careers">
                   Careers
@@ -50,7 +50,7 @@ class NavBar extends Component {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Expertise" id="collasible-nav-dropdown">
+            <NavDropdown title="Expertise">
               <NavDropdown.Item>
                 <Link id="accounting" to="/expertise/accounting">
                   Accounting
@@ -78,7 +78,7 @@ class NavBar extends Component {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Service" id="collasible-nav-dropdown">
+            <NavDropdown title="Service" id="service">
               <NavDropdown.Item>
                 <Link id="contract" to="/service/contract">
                   Contract
