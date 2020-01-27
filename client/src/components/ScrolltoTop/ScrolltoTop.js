@@ -1,10 +1,5 @@
-import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  withRouter
-} from "react-router-dom";
+import { Component } from "react";
+import { BrowserRouter as Router, withRouter } from "react-router-dom";
 
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {

@@ -133,18 +133,8 @@ class Footer extends Component {
         <div className="ct-footer-post">
           <div className="container">
             <div className="copy-right">
-              <p>
-                Copyright © 2016 WebCorpCo.&nbsp;<a href="">Privacy Policy</a>
-              </p>
-              <p>
-                <a className="ct-u-motive-color" href="" target="_blank">
-                  Web Design
-                </a>
-                by DigitalUs on
-                <a href="" target="_blank">
-                  Solodev CMS
-                </a>
-              </p>
+              <p>Copyright © 2016 WebCorpCo. Privacy Policy</p>
+              <p>Web Design by DigitalUs on Solodev CMS</p>
             </div>
           </div>
         </div>
