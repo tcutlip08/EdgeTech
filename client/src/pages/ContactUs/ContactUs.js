@@ -24,15 +24,14 @@ class ContactUs extends Component {
   componentDidMount() {}
 
   componentDidUpdate() {
-    if (this.state.template_params.from_name) {
-      if (this.state.template_params.from_email) {
-        if (this.state.template_params.from_phone) {
-          if (this.state.template_params.from_message) {
-            this.sendEmail();
-          }
-        }
+    for (const property in this.state.template_params) {
+      if (!this.state.template_params[property]) {
+        return;
       }
+      console.log(`${property}: ${this.state.template_params[property]}`);
     }
+    // this.sendEmail();
+    this.clearData();
   }
 
   handleInputChange = event => {
@@ -65,25 +64,30 @@ class ContactUs extends Component {
       )
       .then(
         response => {
-          this.setState({
-            fname: "",
-            lname: "",
-            contactEmail: "",
-            contactPhone: "",
-            comment: "",
-            template_params: {
-              from_name: "",
-              from_message: "",
-              from_email: "",
-              from_phone: ""
-            }
-          });
+          this.clearData();
           console.log("SUCCESS!", response.status, response.text);
         },
         err => {
           console.log("FAILED...", err);
         }
       );
+  }
+
+  clearData() {
+    // document.getElementById("contact").reset();
+    this.setState({
+      fname: "",
+      lname: "",
+      contactEmail: "",
+      contactPhone: "",
+      comment: "",
+      template_params: {
+        from_name: "",
+        from_message: "",
+        from_email: "",
+        from_phone: ""
+      }
+    });
   }
 
   render() {
@@ -94,7 +98,7 @@ class ContactUs extends Component {
             <h2 className="ct-section-head">CONTACT US</h2>
             <div className="row contact-fields">
               <div className="col-md-8 left-form">
-                <form method="post" onSubmit={this.handleSubmit}>
+                <form method="post" id="contact" onSubmit={this.handleSubmit}>
                   <div className="form-group">
                     <label className="sr-only" for="fname">
                       First Name *
@@ -104,6 +108,7 @@ class ContactUs extends Component {
                       id="fname"
                       name="fname"
                       placeholder="First Name&nbsp;*"
+                      value={this.state.fname}
                       onChange={this.handleInputChange}
                       type="text"
                       required
@@ -118,6 +123,7 @@ class ContactUs extends Component {
                       id="lname"
                       name="lname"
                       placeholder="Last Name&nbsp;*"
+                      value={this.state.lname}
                       onChange={this.handleInputChange}
                       type="text"
                       required
@@ -132,6 +138,7 @@ class ContactUs extends Component {
                       id="contactEmail"
                       name="contactEmail"
                       placeholder="Email&nbsp;*"
+                      value={this.state.contactEmail}
                       onChange={this.handleInputChange}
                       type="text"
                       required
@@ -146,6 +153,7 @@ class ContactUs extends Component {
                       id="contactPhone"
                       name="contactPhone"
                       placeholder="Phone&nbsp;*"
+                      value={this.state.contactPhone}
                       onChange={this.handleInputChange}
                       type="text"
                       required
@@ -160,6 +168,7 @@ class ContactUs extends Component {
                       id="comment"
                       name="comment"
                       placeholder="Type your message here&nbsp;*"
+                      value={this.state.comment}
                       onChange={this.handleInputChange}
                       rows="6"
                       required
@@ -173,11 +182,12 @@ class ContactUs extends Component {
               <div className="col-md-4 contact-info">
                 <div className="phone">
                   <h2>Call</h2>
-                  <a href="tel:+1-800-867-5309">Call Now</a>
+                  <a href="tel:1-800-867-5309">Call Now</a>
                 </div>
                 <div className="email">
                   <h2>Email</h2>
-                  <a href="mailto:info@webcorpco.com">info@webcorpco.com</a>
+                  <a href="#">info@webcorpco.com</a>
+                  {/* <a href="mailto:info@webcorpco.com">info@webcorpco.com</a> */}
                 </div>
                 <div className="location">
                   <h2>Visit</h2>
