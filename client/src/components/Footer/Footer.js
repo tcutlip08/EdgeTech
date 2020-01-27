@@ -32,48 +32,58 @@ class Footer extends Component {
               </ul>
             </li>
             <li>
-              <h2 className="ct-footer-list-header">The Industry</h2>
+              <h2 className="ct-footer-list-header">Expertise</h2>
               <ul>
                 <li>
-                  <a href="">Thought Leadership</a>
+                  <Link id="footer-link accounting" to="/expertise/accounting">
+                    Accounting
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Webinars</a>
+                  <Link
+                    id="footer-link engineering"
+                    to="/expertise/engineering"
+                  >
+                    Engineering
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Events</a>
+                  <Link id="footer-link finance" to="/expertise/finance">
+                    Finance
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Sponsorships</a>
+                  <Link id="footer-link healthcare" to="/expertise/healthcare">
+                    Healthcare
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Advisors</a>
-                </li>
-                <li>
-                  <a href="">Training Program</a>
-                </li>
-                <li>
-                  <a href="">Activities & Campaigns</a>
+                  <Link id="footer-link it" to="/expertise/IT">
+                    I.T.
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <h2 className="ct-footer-list-header">Public Relations</h2>
+              <h2 className="ct-footer-list-header">Services</h2>
               <ul>
                 <li>
-                  <a href="">WebCorpCo Blog</a>
+                  <Link id="footer-link contract" to="/service/contract">
+                    Contract
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Hackathons</a>
+                  <Link
+                    id="footer-link contractHire"
+                    to="/service/contract-to-hire"
+                  >
+                    Contract to Hire
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Videos</a>
-                </li>
-                <li>
-                  <a href="">News Releases</a>
-                </li>
-                <li>
-                  <a href="">Newsletters</a>
+                  <Link id="footer-link directHire" to="/service/direct-hire">
+                    Direct Hire
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -81,28 +91,20 @@ class Footer extends Component {
               <h2 className="ct-footer-list-header">About</h2>
               <ul>
                 <li>
-                  <a href="">FAQ</a>
+                  <Link id="footer-link home" to="/">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Our Board</a>
-                </li>
-                <li>
-                  <a href="">Our Staff</a>
-                </li>
-                <li>
-                  <a href="">Contact Us</a>
+                  <Link id="footer-link contact" to="/contact-us">
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </li>
           </ul>
           <div className="ct-footer-meta text-center-sm">
             <div className="row">
-              <Col>
-                <img
-                  alt="logo"
-                  src="https://www.solodev.com/assets/footer/logo.png"
-                />
-              </Col>
               <Col>
                 <address>
                   <span>
