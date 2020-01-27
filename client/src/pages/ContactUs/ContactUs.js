@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./ContactUs.css";
 import emailjs from "emailjs-com";
 
@@ -186,10 +186,10 @@ class ContactUs extends Component {
                 </div>
                 <div className="email">
                   <h2>Email</h2>
-                  <a href="#">info@webcorpco.com</a>
-                  {/* <a href="mailto:info@webcorpco.com">info@webcorpco.com</a> */}
+                  {/* <a href="#">info@webcorpco.com</a> */}
+                  <a href="mailto:info@webcorpco.com">info@webcorpco.com</a>
                 </div>
-                <div className="location">
+                {/* <div className="location">
                   <h2>Visit</h2>
                   <p>
                     One Town Center <br />
@@ -205,7 +205,7 @@ class ContactUs extends Component {
                       Google Maps
                     </a>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

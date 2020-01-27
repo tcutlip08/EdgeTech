@@ -16,7 +16,7 @@ class NavBar extends Component {
           <Col>
             <Navbar.Brand id="navBrand">
               <Link to="/">
-                <img id="logo" src={Logo} />
+                <img id="logo" src={Logo} alt="Logo" />
               </Link>
             </Navbar.Brand>
           </Col>
