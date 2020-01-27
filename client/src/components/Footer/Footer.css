@@ -123,7 +123,7 @@ a {
     margin: 0 20px;
 }
 
-.ct-footer-post a {
+.ct-footer-post #footer-link {
     color: #fff;
 }
 
@@ -389,11 +389,9 @@ address a:hover {
 }
 
 @media (min-width:992px) {
-    .ct-footer-post .inner-left {
-        float: left;
-    }
-    .ct-footer-post .inner-right {
-        float: right;
+    .ct-footer-post .copy-right {
+        width: 100%;
+        text-align: center;
     }
 }
 
