@@ -38,7 +38,7 @@ class Landing extends Component {
           </div>
         </div>
 
-        <Jumbotron fluid id="jumbotronImage">
+        <Jumbotron fluid id="jumbotronImageStudents">
           <Container id="fluidContainer">
             <h1>Fluid jumbotron</h1>
             <p>
