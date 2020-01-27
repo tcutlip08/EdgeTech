@@ -1,5 +1,5 @@
-#monkey {
-    width: fit-content;
+#staffMeetingP {
+    width: 100%;
     max-height: fit-content;
 }
 
@@ -16,7 +16,20 @@
 }
 
 #fluidContainer {
+    margin: 10%;
     text-align: center;
+    color: #001f58;
+    font-weight: 900;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+}
+
+#jumbotronImage {
+    background-image: url("../../assets/img/RandomImages/studentMeeting.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7 initial;
 }
 
 #secondPL {
@@ -26,7 +39,7 @@
 }
 
 .smallIcons {
-    color: #b51900;
+    color: #7a7a7a;
     text-align: center;
     font-size: 50px;
     line-height: 50px;
@@ -43,4 +56,5 @@
 .insertSmallIcons {
     text-align: center;
     font-size: 1rem;
+    margin-bottom: 8rem;
 }

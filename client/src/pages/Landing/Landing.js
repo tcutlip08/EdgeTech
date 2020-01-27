@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Monkey from "../../assets/img/RandomImages/Monkey.jpeg";
+import staffMeetingP from "../../assets/img/RandomImages/staffMeetingP.jpg";
 import "./Landing.css";
 
 class Landing extends Component {
@@ -12,7 +12,7 @@ class Landing extends Component {
     return (
       <div className="Landing">
         <Jumbotron fluid id="jumbotronImage">
-          <img id="monkey" src={Monkey} />
+            <img id="staffMeetingP" src={staffMeetingP} />
         </Jumbotron>
 
         <div className="container">
@@ -38,7 +38,7 @@ class Landing extends Component {
           </div>
         </div>
 
-        <Jumbotron fluid>
+        <Jumbotron fluid id="jumbotronImage">
           <Container id="fluidContainer">
             <h1>Fluid jumbotron</h1>
             <p>
