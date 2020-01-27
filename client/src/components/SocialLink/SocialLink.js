@@ -5,7 +5,7 @@ import "./SocialLink.css";
 const SocialLink = props => {
   return (
     <Link to={props.link}>
-      <i className={props.image} />
+      <i className={props.image} id="social-media" />
     </Link>
   );
 };
