@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,7 +12,7 @@ class Landing extends Component {
     return (
       <div className="Landing">
         <Jumbotron fluid id="jumbotronImage">
-          <img id="monkey" src={Monkey} />
+          <img id="monkey" src={Monkey} alt="omg" />
         </Jumbotron>
 
         <div className="container">
