@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ScrolltoTop from "./components/ScrolltoTop/ScrolltoTop";
 import Accounting from "./pages/Expertise/Accounting/Accounting";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
@@ -22,25 +23,27 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <NavBar />
-      <Switch>
-        <Route path="/blog" component={Blog} />
-        <Route path="/careers/careers" component={Careers} />
-        <Route path="/careers/finding-talent" component={FindingTalent} />
-        <Route path="/careers/join-our-team" component={JoinOurTeam} />
-        <Route path="/expertise/accounting" component={Accounting} />
-        <Route path="/expertise/engineering" component={Engineering} />
-        <Route path="/expertise/finance" component={Finance} />
-        <Route path="/expertise/healthcare" component={Healthcare} />
-        <Route path="/expertise/IT" component={IT} />
-        <Route path="/service/contract" component={Contract} />
-        <Route path="/service/contract-to-hire" component={ContractHire} />
-        <Route path="/service/direct-hire" component={DirectHire} />
-        <Route path="/contact-us" component={ContactUs} />
-        <Route exact path="/" component={Landing} />
-        <Route path="*" component={E404} />
-      </Switch>
-      <Footer />
+      <ScrolltoTop>
+        <NavBar />
+        <Switch>
+          <Route path="/blog" component={Blog} />
+          <Route path="/careers/careers" component={Careers} />
+          <Route path="/careers/finding-talent" component={FindingTalent} />
+          <Route path="/careers/join-our-team" component={JoinOurTeam} />
+          <Route path="/expertise/accounting" component={Accounting} />
+          <Route path="/expertise/engineering" component={Engineering} />
+          <Route path="/expertise/finance" component={Finance} />
+          <Route path="/expertise/healthcare" component={Healthcare} />
+          <Route path="/expertise/IT" component={IT} />
+          <Route path="/service/contract" component={Contract} />
+          <Route path="/service/contract-to-hire" component={ContractHire} />
+          <Route path="/service/direct-hire" component={DirectHire} />
+          <Route path="/contact-us" component={ContactUs} />
+          <Route exact path="/" component={Landing} />
+          <Route path="*" component={E404} />
+        </Switch>
+        <Footer />
+      </ScrolltoTop>
     </Router>
   );
 }
