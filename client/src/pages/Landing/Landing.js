@@ -4,19 +4,19 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Monkey from "../../assets/img/RandomImages/Monkey.jpeg";
+import staffMeetingP from "../../assets/img/RandomImages/staffMeetingP.jpg";
 import "./Landing.css";
 
 class Landing extends Component {
   render() {
     return (
       <div className="Landing">
-        <Jumbotron fluid id="jumbotronImage">
-          <img id="monkey" src={Monkey} alt="omg" />
+        <Jumbotron fluid id="jumbotronImageL">
+          <img id="staffMeetingP" src={staffMeetingP} />
         </Jumbotron>
 
-        <div className="container">
-          <div className="row">
+        <Container>
+          <Row>
             <Col>
               <div id="firstPL">
                 Landing!!!!!!!!! 5 more minute of this and I'm going to get mad!
@@ -35,26 +35,26 @@ class Landing extends Component {
                 me, but it also made me impotent!
               </div>
             </Col>
-          </div>
-        </div>
+          </Row>
+        </Container>
 
-        <Jumbotron fluid>
-          <Container id="fluidContainer">
+        <Jumbotron fluid id="jumbotronImageStudents">
+          <Container id="fluidContainerL">
             <h1>Fluid jumbotron</h1>
             <p>
               This is a modified jumbotron that occupies the entire horizontal
               space of its parent.
             </p>
-            <hr />
+            <br />
             <p>
-              This is a modified jumbotron with a divider in between the 2
+              This is a modified jumbotron with a break in between the 2
               sentences.
             </p>
           </Container>
         </Jumbotron>
 
-        <div className="container">
-          <div className="row">
+        <Container>
+          <Row>
             <Col>
               <div id="secondPL">
                 Landing!!!!!!!!! 5 more minute of this and I'm going to get mad!
@@ -73,52 +73,42 @@ class Landing extends Component {
                 me, but it also made me impotent!
               </div>
             </Col>
-          </div>
-        </div>
+          </Row>
+        </Container>
 
         <Container>
           <Row>
-            <Col className="smallIcons">
+            <Col className="smallIconsL">
               <i class="fab fa-battle-net"></i>
+              <Row className="headerSmallIconsL">battle-net</Row>
+              <Row className="insertSmallIconsL">
+                Something, Something, Something, Something, Something,
+                Something, Something, Something
+              </Row>
             </Col>
-            <Col className="smallIcons">
+            <Col className="smallIconsL">
               <i class="fas fa-atom"></i>
+              <Row className="headerSmallIconsL">atom</Row>
+              <Row className="insertSmallIconsL">
+                Something, Something, Something, Something, Something,
+                Something, Something, Something
+              </Row>
             </Col>
-            <Col className="smallIcons">
+            <Col className="smallIconsL">
               <i class="fas fa-biohazard"></i>
+              <Row className="headerSmallIconsL">biohazard</Row>
+              <Row className="insertSmallIconsL">
+                Something, Something, Something, Something, Something,
+                Something, Something, Something
+              </Row>
             </Col>
-            <Col className="smallIcons">
+            <Col className="smallIconsL">
               <i class="fas fa-graduation-cap"></i>
-            </Col>
-          </Row>
-        </Container>
-
-        <Container>
-          <Row>
-            <Col className="headerSmallIcons">Something</Col>
-            <Col className="headerSmallIcons">Something</Col>
-            <Col className="headerSmallIcons">Something</Col>
-            <Col className="headerSmallIcons">Something</Col>
-          </Row>
-        </Container>
-
-        <Container>
-          <Row>
-            <Col className="insertSmallIcons">
-              Something, Something, Something, Something, Something, Something,
-              Something, Something
-            </Col>
-            <Col className="insertSmallIcons">
-              Something, Something, Something, Something, Something, Something,
-              Something, Something
-            </Col>
-            <Col className="insertSmallIcons">
-              Something, Something, Something, Something, Something, Something,
-              Something, Something
-            </Col>
-            <Col className="insertSmallIcons">
-              Something, Something, Something, Something, Something, Something,
-              Something, Something
+              <Row className="headerSmallIconsL">graduation-cap</Row>
+              <Row className="insertSmallIconsL">
+                Something, Something, Something, Something, Something,
+                Something, Something, Something
+              </Row>
             </Col>
           </Row>
         </Container>
