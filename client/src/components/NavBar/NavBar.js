@@ -34,17 +34,17 @@ class NavBar extends Component {
             </Nav.Link>
             <NavDropdown title="Careers">
               <NavDropdown.Item>
-                <Link id="careers" to="/careers/careers">
-                  Careers
+                <Link id="job-posting" to="/careers/job-posting">
+                  Job Posting
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link id="talent" to="/careers/finding-talent">
+                <Link id="finding-talent" to="/careers/finding-talent">
                   Find Talent
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link id="team" to="/careers/join-our-team">
+                <Link id="join-our-team" to="/careers/join-our-team">
                   Join our Team
                 </Link>
               </NavDropdown.Item>
@@ -85,19 +85,19 @@ class NavBar extends Component {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link id="contractHire" to="/service/contract-to-hire">
+                <Link id="contract-hire" to="/service/contract-to-hire">
                   Contract to Hire
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link id="directHire" to="/service/direct-hire">
+                <Link id="direct-hire" to="/service/direct-hire">
                   Direct Hire
                 </Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav className="mr-auto">
               <Nav.Link>
-                <Link id="contact" to="/contact-us">
+                <Link id="contact-us" to="/contact-us">
                   Contact Us
                 </Link>
               </Nav.Link>
