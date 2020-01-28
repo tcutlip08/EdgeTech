@@ -2,6 +2,10 @@ import { Component } from "react";
 import { BrowserRouter as Router, withRouter } from "react-router-dom";
 
 class ScrollToTop extends Component {
+  state = {
+    shutUpESLint: Router
+  };
+
   componentDidUpdate(prevProps) {
     if (this.props.location !== prevProps.location) {
       window.scrollTo(0, 0);

@@ -12,7 +12,7 @@ class Landing extends Component {
     return (
       <div className="Landing">
         <Jumbotron fluid id="jumbotronImageL">
-          <img id="staffMeetingP" src={staffMeetingP} />
+          <img id="staffMeetingP" src={staffMeetingP} alt="staff meeting" />
         </Jumbotron>
 
         <Container>

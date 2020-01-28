@@ -12,7 +12,7 @@ class Accounting extends Component {
     return (
       <div className="AccountingPage">
         <Jumbotron fluid id="jumbotronImageAccounting">
-          <img id="accountingImage" src={AccountingImage} />
+          <img id="accountingImage" src={AccountingImage} alt="accounting" />
         </Jumbotron>
 
         <Container>
