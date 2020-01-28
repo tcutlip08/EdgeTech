@@ -5,7 +5,7 @@ import Accounting from "./pages/Expertise/Accounting/Accounting";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Blog from "./pages/Blog/Blog";
-import Careers from "./pages/Careers/Careers/Careers";
+import JobPosting from "./pages/Careers/JobPosting/JobPosting";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Contract from "./pages/Service/Contract/Contract";
 import ContractHire from "./pages/Service/ContractHire/ContractHire";
@@ -27,7 +27,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route path="/blog" component={Blog} />
-          <Route path="/careers/careers" component={Careers} />
+          <Route path="/careers/job-josting" component={JobPosting} />
           <Route path="/careers/finding-talent" component={FindingTalent} />
           <Route path="/careers/join-our-team" component={JoinOurTeam} />
           <Route path="/expertise/accounting" component={Accounting} />

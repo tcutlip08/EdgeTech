@@ -1,6 +1,8 @@
 const router = require("express").Router();
-const user = require("./user");
+const LFEmp = require("./LFEmp");
+const LFJob = require("./LFJob");
 
-router.use("/user", user);
+router.use("/LFEmp", LFEmp);
+router.use("/LFJob", LFJob);
 
 module.exports = router;
