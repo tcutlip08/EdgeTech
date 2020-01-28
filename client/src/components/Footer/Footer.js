@@ -15,17 +15,23 @@ class Footer extends Component {
               <h2 className="ct-footer-list-header">Careers</h2>
               <ul>
                 <li>
-                  <Link id="footer-link careers" to="/careers/careers">
-                    Careers
+                  <Link id="footer-link job-posting" to="/careers/job-posting">
+                    Job Posting
                   </Link>
                 </li>
                 <li>
-                  <Link id="footer-link talent" to="/careers/finding-talent">
+                  <Link
+                    id="footer-link finding-talent"
+                    to="/careers/finding-talent"
+                  >
                     Find Talent
                   </Link>
                 </li>
                 <li>
-                  <Link id="footer-link team" to="/careers/join-our-team">
+                  <Link
+                    id="footer-link join-our-team"
+                    to="/careers/join-our-team"
+                  >
                     Join our Team
                   </Link>
                 </li>
@@ -74,14 +80,14 @@ class Footer extends Component {
                 </li>
                 <li>
                   <Link
-                    id="footer-link contractHire"
+                    id="footer-link contract-to-hire"
                     to="/service/contract-to-hire"
                   >
                     Contract to Hire
                   </Link>
                 </li>
                 <li>
-                  <Link id="footer-link directHire" to="/service/direct-hire">
+                  <Link id="footer-link direct-hire" to="/service/direct-hire">
                     Direct Hire
                   </Link>
                 </li>
@@ -96,7 +102,7 @@ class Footer extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link id="footer-link contact" to="/contact-us">
+                  <Link id="footer-link contact-us" to="/contact-us">
                     Contact Us
                   </Link>
                 </li>

@@ -1,12 +1,14 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const userSchema = new Schema({
-  username: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
-  password: { type: String, required: true }
+const LFEmpSchema = new Schema({
+  company: { type: String },
+  jobTitle: { type: String },
+  detail: { type: String },
+  email: { type: String },
+  phone: { type: String }
 });
 
-const User = mongoose.model("User", userSchema);
+const LFEmp = mongoose.model("LFEmp", LFEmpSchema);
 
-module.exports = User;
+module.exports = LFEmp;
