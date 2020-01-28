@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./FindingTalent.css";
 
 class FindingTalent extends Component {
   render() {
     return (
       <div className="FindingTalent">
+        <Link to="/careers/finding-talent/new-talent-post">New Post</Link>
         <div>
           Dis be FindingTalent PageBagpipes from Baghdad. What's going through
           my mind. Half the time, when I rhyme, or blowing up like. Bagpipes
