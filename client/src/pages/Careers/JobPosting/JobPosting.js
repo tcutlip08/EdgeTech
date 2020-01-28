@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./JobPosting.css";
 
 class JobPosting extends Component {
   render() {
     return (
       <div className="JobPosting">
+        <Link to="/careers/job-posting/new-job-post">New Post</Link>
         <div>
           I’m the American Dream. I’m the definiton of white trash ballin’. I’m
           right back on 'em. With a (chicka chicka chicka) I can’t call it. Same
