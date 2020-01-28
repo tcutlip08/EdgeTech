@@ -1,0 +1,76 @@
+#financeImage {
+  width: 100%;
+  max-height: fit-content;
+}
+
+#jumbotronImageFinance {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#firstPF {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#FpointsOfInterest {
+  margin-left: 26%;
+  justify-content: center;
+  list-style-type: disc;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
+  /* overflow: auto; */
+}
+
+#financeTabs {
+  /* background-color: #7a7a7a; */
+  margin-bottom: 10%;
+  background-image: url("../../../assets/img/RandomImages/mathFinanceImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.9; */
+}
+
+.smallIconsFinance {
+  color: #001f58;
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20%;
+}
+
+.headerSmallIconsFinance {
+  color: #b51900;
+  justify-content: center;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+#splitheaderFinance {
+  color: #001f58;
+}
+
+#accountingHeaderWithBullets {
+  margin-bottom: 10%;
+}
+
+h4 {
+  margin: 0% 5% 0% 5%;
+  color: #000;
+}
+
+#financeParagraph {
+  color: #7a7a7a;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
