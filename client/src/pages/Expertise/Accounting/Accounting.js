@@ -70,7 +70,7 @@ class Accounting extends Component {
           </Container>
         </Jumbotron>
 
-        <Container id="headerWithBullets">
+        <Container id="accountingHeaderWithBullets">
           <Row>
             <Col>
               <h1 id="splitheaderAccounting">Header</h1>
@@ -99,19 +99,19 @@ class Accounting extends Component {
                 <Col>
                   <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
                   <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
@@ -119,19 +119,19 @@ class Accounting extends Component {
                 <Col>
                   <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
                   <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
-                    <li id="pointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
+                    <li id="ApointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>

@@ -18,10 +18,10 @@
 #fluidContainerL {
   margin: 10%;
   text-align: center;
-  color: white;
   font-weight: 900;
   font-size: medium;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
