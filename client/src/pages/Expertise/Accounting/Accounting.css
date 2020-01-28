@@ -22,6 +22,7 @@ h1 {
 #pointsOfInterest {
   margin-left: 26%;
   justify-content: center;
+  list-style-type: disc;
   /* display: flex; */
   /* flex-flow: row wrap; */
   /* overflow: auto; */
@@ -33,23 +34,26 @@ h1 {
 }
 
 .smallIconsAccounting {
-  margin-top: 5%;
   color: #001f58;
   text-align: center;
-  font-size: 50px;
-  line-height: 50px;
-  height: 50px;
-  width: 50px;
+  font-size: 80px;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
   margin-bottom: 20%;
 }
 
 .headerSmallIconsAccounting {
-  color: #000;
+  color: #b51900;
   justify-content: center;
   margin-top: 1rem;
   text-align: center;
   font-size: 2rem;
   text-decoration: underline;
+}
+
+#splitheaderAccounting {
+    color: #001f58;
 }
 
 #headerWithBullets {

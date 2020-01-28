@@ -37,37 +37,43 @@ class Accounting extends Component {
           </Row>
         </Container>
 
-        <Row id="accountingTabs">
-          <Col className="smallIconsAccounting">
-            <i class="fas fa-bacon"></i>
-            <Row className="headerSmallIconsAccounting">bacon</Row>
+        <Jumbotron fluid id="accountingTabs">
+          <Container>
             <Row>
-              <h4>
-                I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                Shadys are just imitating. So won't the real Slim Shady please
-                stand up. Please stand up, please stand up?. 'Cause I'm Slim
-                Shady, yes, I'm the real Shady.
-              </h4>
+              <Col className="smallIconsAccounting">
+                <i class="fas fa-bacon"></i>
+                <Row className="headerSmallIconsAccounting">bacon</Row>
+                <Row>
+                  <h4>
+                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
+                    Shadys are just imitating. So won't the real Slim Shady
+                    please stand up. Please stand up, please stand up?. 'Cause
+                    I'm Slim Shady, yes, I'm the real Shady.
+                  </h4>
+                </Row>
+              </Col>
+              <Col className="smallIconsAccounting">
+                <i class="fab fa-phoenix-squadron"></i>
+                <Row className="headerSmallIconsAccounting">
+                  phoenix-squadron
+                </Row>
+                <Row>
+                  <h4>
+                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
+                    Shadys are just imitating. So won't the real Slim Shady
+                    please stand up. Please stand up, please stand up?. 'Cause
+                    I'm Slim Shady, yes, I'm the real Shady.
+                  </h4>
+                </Row>
+              </Col>
             </Row>
-          </Col>
-          <Col className="smallIconsAccounting">
-            <i class="fab fa-phoenix-squadron"></i>
-            <Row className="headerSmallIconsAccounting">phoenix-squadron</Row>
-            <Row>
-              <h4>
-                I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                Shadys are just imitating. So won't the real Slim Shady please
-                stand up. Please stand up, please stand up?. 'Cause I'm Slim
-                Shady, yes, I'm the real Shady.
-              </h4>
-            </Row>
-          </Col>
-        </Row>
+          </Container>
+        </Jumbotron>
 
         <Container id="headerWithBullets">
           <Row>
             <Col>
-              <h1>Header</h1>
+              <h1 id="splitheaderAccounting">Header</h1>
               <p>
                 I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                 Shadys are just imitating. So won't the real Slim Shady please
@@ -91,7 +97,7 @@ class Accounting extends Component {
             <Col>
               <Row>
                 <Col>
-                  <h1>Header</h1>
+                  <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
                     <li id="pointsOfInterest">something</li>
                     <li id="pointsOfInterest">something</li>
@@ -100,7 +106,7 @@ class Accounting extends Component {
                   </ul>
                 </Col>
                 <Col>
-                  <h1>Header</h1>
+                  <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
                     <li id="pointsOfInterest">something</li>
                     <li id="pointsOfInterest">something</li>
@@ -111,7 +117,7 @@ class Accounting extends Component {
               </Row>
               <Row>
                 <Col>
-                  <h1>Header</h1>
+                  <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
                     <li id="pointsOfInterest">something</li>
                     <li id="pointsOfInterest">something</li>
@@ -120,7 +126,7 @@ class Accounting extends Component {
                   </ul>
                 </Col>
                 <Col>
-                  <h1>Header</h1>
+                  <h1 id="splitheaderAccounting">Header</h1>
                   <ul>
                     <li id="pointsOfInterest">something</li>
                     <li id="pointsOfInterest">something</li>
