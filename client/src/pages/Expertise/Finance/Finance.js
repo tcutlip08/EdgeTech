@@ -1,26 +1,140 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import FinanceImage from "../../../assets/img/RandomImages/financeImage.jpg";
 import "./Finance.css";
 
 class Finance extends Component {
   render() {
     return (
-      <div className="Finance">
-        <div>
-          Bagpipes from Baghdad. What's going through my mind. Half the time,
-          when I rhyme, or blowing up like. Bagpipes from Baghdad. Somebody turn
-          the vacancy sign on. 'Cause I'm gone, blowing on my. Bagpipes from
-          Baghdad. I run the streets. And act like a madman holding a Glad.I'm
-          beginning to feel like a Rap God, Rap God. All my people from the
-          front to the back nod, back nod. The way I'm racing around the track,
-          call me NASCAR, NASCAR. Dale Earnhardt of the trailer park, the White
-          Trash God. Kneel before General Zod. This planet's Krypton – no,
-          Asgard, Asgard.Feminist women love Eminem. "Chicka, chicka, chicka,
-          Slim Shady, I'm sick of him. Look at him, walkin' around, grabbin' his
-          you-know-what. Flippin' the you-know-who," "Yeah, but he's so cute
-          though.". Yeah, I probably got a couple of screws up in my head loose.
-          But no worse than what's goin' on in your parents' bedrooms.
-        </div>
+      <div className="FinancePage">
+        <Jumbotron fluid id="jumbotronImageFinance">
+          <img id="financeImage" src={FinanceImage} />
+        </Jumbotron>
+
+        <Container>
+          <Row>
+            <div id="firstPF">
+              Bagpipes from Baghdad. What's going through my mind. Half the
+              time, when I rhyme, or blowing up like. Bagpipes from Baghdad.
+              Somebody turn the vacancy sign on. 'Cause I'm gone, blowing on my.
+              Bagpipes from Baghdad. I run the streets. And act like a madman
+              holding a Glad.I'm beginning to feel like a Rap God, Rap God. All
+              my people from the front to the back nod, back nod. The way I'm
+              racing around the track, call me NASCAR, NASCAR. Dale Earnhardt of
+              the trailer park, the White Trash God. Kneel before General Zod.
+              This planet's Krypton – no, Asgard, Asgard.Feminist women love
+              Eminem. "Chicka, chicka, chicka, Slim Shady, I'm sick of him. Look
+              at him, walkin' around, grabbin' his you-know-what. Flippin' the
+              you-know-who," "Yeah, but he's so cute though.". Yeah, I probably
+              got a couple of screws up in my head loose. But no worse than
+              what's goin' on in your parents' bedrooms.
+            </div>
+          </Row>
+        </Container>
+
+        <Jumbotron fluid id="financeTabs">
+          <Container>
+            <Row>
+              <Col className="smallIconsFinance">
+                <i class="fas fa-bacon"></i>
+                <Row className="headerSmallIconsFinance">bacon</Row>
+                <Row>
+                  <h4 id="financeParagraph">
+                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
+                    Shadys are just imitating. So won't the real Slim Shady
+                    please stand up. Please stand up, please stand up?. 'Cause
+                    I'm Slim Shady, yes, I'm the real Shady.
+                  </h4>
+                </Row>
+              </Col>
+              <Col className="smallIconsFinance">
+                <i class="fab fa-phoenix-squadron"></i>
+                <Row className="headerSmallIconsFinance">phoenix-squadron</Row>
+                <Row>
+                  <h4 id="financeParagraph">
+                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
+                    Shadys are just imitating. So won't the real Slim Shady
+                    please stand up. Please stand up, please stand up?. 'Cause
+                    I'm Slim Shady, yes, I'm the real Shady.
+                  </h4>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
+        </Jumbotron>
+
+        <Container id="financeHeaderWithBullets">
+          <Row>
+            <Col>
+              <h1 id="splitheaderFinance">Header</h1>
+              <p>
+                I'm Slim Shady, yes, I'm the real Shady. All you other Slim
+                Shadys are just imitating. So won't the real Slim Shady please
+                stand up. Please stand up, please stand up?. 'Cause I'm Slim
+                Shady, yes, I'm the real Shady. All you other Slim Shadys are
+                just imitating. So won't the real Slim Shady please stand up.
+                Please stand up, please stand up?When you walked through the
+                door. It was clear to me (Clear to me). You’re the one they
+                adore. Who they came to see (Who they came to see). You’re a
+                rock star (Baby). Everybody wants you (Everybody wants you).
+                Player, who can really blame you? (Who can really blame you?).
+                We’re the ones who made you.We're gonna rock this house until we
+                knock it down. So turn the volume loud. 'Cause it's mayhem 'til
+                the A.M.. So, baby, make just like K-Fed. And let yourself go,
+                let yourself go. Say "Fuck it!" before we kick the bucket.
+                Life's too short to not go for broke. So everybody, everybody,
+                go berserk, grab your vial, yeah.
+              </p>
+            </Col>
+
+            <Col>
+              <Row>
+                <Col>
+                  <h1 id="splitheaderFinance">Header</h1>
+                  <ul>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                  </ul>
+                </Col>
+                <Col>
+                  <h1 id="splitheaderFinance">Header</h1>
+                  <ul>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                  </ul>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h1 id="splitheaderFinance">Header</h1>
+                  <ul>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                  </ul>
+                </Col>
+                <Col>
+                  <h1 id="splitheaderFinance">Header</h1>
+                  <ul>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                    <li id="FpointsOfInterest">something</li>
+                  </ul>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
       </div>
     );
   }
