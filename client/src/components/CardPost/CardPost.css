@@ -1,0 +1,6 @@
+.cardPost {
+    border: dotted red 1px;
+    text-align: center;
+    margin: 5px 10px;
+    height: 100px;
+}
