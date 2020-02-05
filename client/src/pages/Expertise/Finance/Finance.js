@@ -12,7 +12,7 @@ class Finance extends Component {
     return (
       <div className="FinancePage">
         <Jumbotron fluid id="jumbotronImageFinance">
-          <img id="financeImage" src={FinanceImage} />
+          <img id="financeImage" src={FinanceImage} alt="financeImg" />
         </Jumbotron>
 
         <Container>
