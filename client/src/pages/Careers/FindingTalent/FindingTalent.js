@@ -35,7 +35,7 @@ class FindingTalent extends Component {
     return (
       <Container className="FindingTalent">
         <Row>
-          <Link to="/careers/job-posting/new-job-post">New Post</Link>
+          <Link to="/careers/finding-talent/new-talent-post">New Post</Link>
         </Row>
         <Row className="justify-content-md-center">
           {this.state.posts ? (
