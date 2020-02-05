@@ -48,7 +48,8 @@ class JobPostForm extends Component {
   }
 
   clearData() {
-    this.setState({});
+    this.setState({ first: "", last: "", email: "", phone: "" });
+    this.props.history.push("/careers/finding-talent");
   }
 
   render() {
