@@ -22,84 +22,65 @@ class NavBar extends Component {
           </Col>
 
           <Nav className="mr-auto" id="nav">
-            <Nav.Link>
-              <Link id="home" to="/">
-                Home
-              </Link>
+            <Nav.Link id="home" href="/">
+              Home
             </Nav.Link>
-            <Nav.Link>
-              <Link id="blog" to="/blog">
-                Blog
-              </Link>
+            <Nav.Link id="blog" href="/blog">
+              Blog
             </Nav.Link>
             <NavDropdown title="Careers">
-              <NavDropdown.Item>
-                <Link id="job-posting" to="/careers/job-posting">
-                  Job Posting
-                </Link>
+              <NavDropdown.Item id="job-posting" href="/careers/job-posting">
+                Job Posting
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="finding-talent" to="/careers/finding-talent">
-                  Find Talent
-                </Link>
+              <NavDropdown.Item
+                id="finding-talent"
+                href="/careers/finding-talent"
+              >
+                Find Talent
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="join-our-team" to="/careers/join-our-team">
-                  Join our Team
-                </Link>
+              <NavDropdown.Item
+                id="join-our-team"
+                href="/careers/join-our-team"
+              >
+                Join our Team
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Expertise">
-              <NavDropdown.Item>
-                <Link id="accounting" to="/expertise/accounting">
-                  Accounting
-                </Link>
+              <NavDropdown.Item id="accounting" href="/expertise/accounting">
+                Accounting
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="engineering" to="/expertise/engineering">
-                  Engineering
-                </Link>
+              <NavDropdown.Item id="engineering" href="/expertise/engineering">
+                Engineering
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="finance" to="/expertise/finance">
-                  Finance
-                </Link>
+              <NavDropdown.Item id="finance" href="/expertise/finance">
+                Finance
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="healthcare" to="/expertise/healthcare">
-                  Healthcare
-                </Link>
+              <NavDropdown.Item id="healthcare" href="/expertise/healthcare">
+                Healthcare
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="it" to="/expertise/IT">
-                  I.T.
-                </Link>
+              <NavDropdown.Item id="it" href="/expertise/IT">
+                I.T.
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Service" id="service">
-              <NavDropdown.Item>
-                <Link id="contract" to="/service/contract">
-                  Contract
-                </Link>
+              <NavDropdown.Item id="contract" href="/service/contract">
+                Contract
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="contract-hire" to="/service/contract-to-hire">
-                  Contract to Hire
-                </Link>
+              <NavDropdown.Item
+                id="contract-hire"
+                href="/service/contract-to-hire"
+              >
+                Contract to Hire
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link id="direct-hire" to="/service/direct-hire">
-                  Direct Hire
-                </Link>
+              <NavDropdown.Item id="direct-hire" href="/service/direct-hire">
+                Direct Hire
               </NavDropdown.Item>
             </NavDropdown>
             <Nav className="mr-auto">
-              <Nav.Link>
-                <Link id="contact-us" to="/contact-us">
-                  Contact Us
-                </Link>
+              <Nav.Link id="contact-us" href="/contact-us">
+                Contact Us
               </Nav.Link>
             </Nav>
           </Nav>
