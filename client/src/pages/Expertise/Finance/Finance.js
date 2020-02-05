@@ -40,7 +40,7 @@ class Finance extends Component {
           <Container>
             <Row>
               <Col className="smallIconsFinance">
-                <i class="fas fa-bacon"></i>
+                <i className="fas fa-bacon"></i>
                 <Row className="headerSmallIconsFinance">bacon</Row>
                 <Row>
                   <h4 id="financeParagraph">
@@ -52,7 +52,7 @@ class Finance extends Component {
                 </Row>
               </Col>
               <Col className="smallIconsFinance">
-                <i class="fab fa-phoenix-squadron"></i>
+                <i className="fab fa-phoenix-squadron"></i>
                 <Row className="headerSmallIconsFinance">phoenix-squadron</Row>
                 <Row>
                   <h4 id="financeParagraph">

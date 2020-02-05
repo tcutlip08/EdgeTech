@@ -39,7 +39,7 @@ class Engineering extends Component {
           <Container>
             <Row>
               <Col className="smallIconsEngineering">
-                <i class="fas fa-bacon"></i>
+                <i className="fas fa-bacon"></i>
                 <Row className="headerSmallIconsEngineering">bacon</Row>
                 <Row>
                   <h4>
@@ -51,7 +51,7 @@ class Engineering extends Component {
                 </Row>
               </Col>
               <Col className="smallIconsEngineering">
-                <i class="fab fa-phoenix-squadron"></i>
+                <i className="fab fa-phoenix-squadron"></i>
                 <Row className="headerSmallIconsEngineering">
                   phoenix-squadron
                 </Row>

@@ -3,6 +3,15 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
+////////////////////////////////////////////////////
+// response.cookie("same-site-cookie", "foo", { sameSite: "lax" });
+// response.cookie("cross-site-cookie", "bar", { sameSite: "none", secure: true });
+
+// response.setHeader("set-cookie", [
+//   "same-site-cookie=bar; SameSite=Lax",
+//   "cross-site-cookie=foo; SameSite=None; Secure"
+// ]);
+/////////////////////////////////////////////////////
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
