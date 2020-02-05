@@ -12,7 +12,7 @@ class Engineering extends Component {
     return (
       <div className="EngineeringPage">
         <Jumbotron fluid id="jumbotronImageEngineering">
-          <img id="engineeringImage" src={EngineeringImage} />
+          <img id="engineeringImage" src={EngineeringImage} alt="engineImg" />
         </Jumbotron>
 
         <Container>
@@ -136,7 +136,6 @@ class Engineering extends Component {
             </Col>
           </Row>
         </Container>
-
       </div>
     );
   }

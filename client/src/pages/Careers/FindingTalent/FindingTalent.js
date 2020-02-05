@@ -22,7 +22,7 @@ class FindingTalent extends Component {
 
   getPost() {
     axios
-      .get("/api/LFEmp")
+      .get("/api/LFJob")
       .then(res => {
         this.setState({ posts: res.data });
       })
@@ -35,12 +35,16 @@ class FindingTalent extends Component {
     return (
       <Container className="FindingTalent">
         <Row>
-          <Link to="/careers/job-posting/new-job-post">New Post</Link>
+          <Col>
+            <Link to="/careers/finding-talent/new-talent-post">
+              Need a position filled?
+            </Link>
+          </Col>
         </Row>
         <Row className="justify-content-md-center">
           {this.state.posts ? (
             this.state.posts.map(card => {
-              return <CardPost title={`${card.company}`} />;
+              return <CardPost title={`${card.first} ${card.last}`} />;
             })
           ) : (
             <>Loading</>

@@ -2,7 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import "./CardPost.css";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+// import Row from "react-bootstrap/Row";
 
 const CardPost = props => {
   return (
