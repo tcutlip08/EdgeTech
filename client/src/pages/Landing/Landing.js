@@ -79,7 +79,7 @@ class Landing extends Component {
         <Container>
           <Row>
             <Col className="smallIconsL">
-              <i class="fab fa-battle-net"></i>
+              <i className="fab fa-battle-net"></i>
               <Row className="headerSmallIconsL">battle-net</Row>
               <Row className="insertSmallIconsL">
                 Something, Something, Something, Something, Something,
@@ -87,7 +87,7 @@ class Landing extends Component {
               </Row>
             </Col>
             <Col className="smallIconsL">
-              <i class="fas fa-atom"></i>
+              <i className="fas fa-atom"></i>
               <Row className="headerSmallIconsL">atom</Row>
               <Row className="insertSmallIconsL">
                 Something, Something, Something, Something, Something,
@@ -95,7 +95,7 @@ class Landing extends Component {
               </Row>
             </Col>
             <Col className="smallIconsL">
-              <i class="fas fa-biohazard"></i>
+              <i className="fas fa-biohazard"></i>
               <Row className="headerSmallIconsL">biohazard</Row>
               <Row className="insertSmallIconsL">
                 Something, Something, Something, Something, Something,
@@ -103,7 +103,7 @@ class Landing extends Component {
               </Row>
             </Col>
             <Col className="smallIconsL">
-              <i class="fas fa-graduation-cap"></i>
+              <i className="fas fa-graduation-cap"></i>
               <Row className="headerSmallIconsL">graduation-cap</Row>
               <Row className="insertSmallIconsL">
                 Something, Something, Something, Something, Something,

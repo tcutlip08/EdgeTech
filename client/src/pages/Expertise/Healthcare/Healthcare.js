@@ -42,7 +42,7 @@ class Healthcare extends Component {
           <Container>
             <Row>
               <Col className="smallIconsHealthCare">
-                <i class="fas fa-bacon"></i>
+                <i className="fas fa-bacon"></i>
                 <Row className="headerSmallIconsHealthCare">bacon</Row>
                 <Row>
                   <h4>
@@ -54,7 +54,7 @@ class Healthcare extends Component {
                 </Row>
               </Col>
               <Col className="smallIconsHealthCare">
-                <i class="fab fa-phoenix-squadron"></i>
+                <i className="fab fa-phoenix-squadron"></i>
                 <Row className="headerSmallIconsHealthCare">
                   phoenix-squadron
                 </Row>

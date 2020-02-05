@@ -41,7 +41,7 @@ class Accounting extends Component {
           <Container>
             <Row>
               <Col className="smallIconsAccounting">
-                <i class="fas fa-bacon"></i>
+                <i className="fas fa-bacon"></i>
                 <Row className="headerSmallIconsAccounting">bacon</Row>
                 <Row>
                   <h4>
@@ -53,7 +53,7 @@ class Accounting extends Component {
                 </Row>
               </Col>
               <Col className="smallIconsAccounting">
-                <i class="fab fa-phoenix-squadron"></i>
+                <i className="fab fa-phoenix-squadron"></i>
                 <Row className="headerSmallIconsAccounting">
                   phoenix-squadron
                 </Row>

@@ -39,7 +39,7 @@ class IT extends Component {
           <Container>
             <Row>
               <Col className="smallIconsIT">
-                <i class="fas fa-bacon"></i>
+                <i className="fas fa-bacon"></i>
                 <Row className="headerSmallIconsIT">bacon</Row>
                 <Row>
                   <h4>
@@ -51,7 +51,7 @@ class IT extends Component {
                 </Row>
               </Col>
               <Col className="smallIconsIT">
-                <i class="fab fa-phoenix-squadron"></i>
+                <i className="fab fa-phoenix-squadron"></i>
                 <Row className="headerSmallIconsIT">
                   phoenix-squadron
                 </Row>
