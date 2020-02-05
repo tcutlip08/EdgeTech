@@ -49,7 +49,14 @@ class FindTalentPost extends Component {
   }
 
   clearData() {
-    this.setState({});
+    this.setState({
+      company: "",
+      jobTitle: "",
+      detail: "",
+      email: "",
+      phone: ""
+    });
+    this.props.history.push("/careers/job-posting");
   }
 
   render() {

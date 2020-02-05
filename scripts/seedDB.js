@@ -18,7 +18,7 @@ const LFJobSeeds = [
     first: "Jesse",
     last: "McKinney",
     email: "solid51308@gmail.com",
-    phone: "404-933-5642"
+    phone: "404-867-5309"
   }
 ];
 
@@ -33,11 +33,11 @@ db.LFJob.deleteMany({})
 
 const LFEmpSeeds = [
   {
-    company: "Eat'n Dick Inc.",
-    jobTitle: "Professional Dick Eater",
-    detail: "Eat a lot of dicks :)",
-    email: "i8aDick@gmail.com",
-    phone: "1-800-EAT-DICK"
+    company: "Company Name",
+    jobTitle: "Title to Fill",
+    detail: "Work needed to be done.",
+    email: "Company.Name@gmail.com",
+    phone: "1-800-555-5555"
   }
 ];
 

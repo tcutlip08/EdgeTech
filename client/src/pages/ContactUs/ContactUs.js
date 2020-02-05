@@ -30,8 +30,6 @@ class ContactUs extends Component {
       }
       console.log(`${property}: ${this.state.template_params[property]}`);
     }
-    // this.sendEmail();
-    this.clearData();
   }
 
   handleInputChange = event => {
