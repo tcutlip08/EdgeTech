@@ -1,0 +1,7 @@
+#boss {
+  justify-content: center;
+  float: center;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: auto;
+}
