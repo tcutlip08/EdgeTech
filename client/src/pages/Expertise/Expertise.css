@@ -1,0 +1,67 @@
+#Image {
+    width: 100%;
+    max-height: fit-content;
+  }
+  
+  #jumbotronImage {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #firstP {
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #pointsOfInterest {
+    margin-left: 26%;
+    justify-content: center;
+    list-style-type: disc;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    /* overflow: auto; */
+  }
+  
+  #tabs {
+    background-color: #7a7a7a;
+    margin-bottom: 10%;
+  }
+  
+  .smallIcons {
+    color: #001f58;
+    text-align: center;
+    font-size: 80px;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20%;
+  }
+  
+  .headerSmallIcons {
+    color: #b51900;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  
+  #splitheader {
+    color: #001f58;
+  }
+  
+  #HeaderWithBullets {
+    margin-bottom: 10%;
+  }
+  
+  h4 {
+    margin: 0% 5% 0% 5%;
+    color: #000;
+  }
+  

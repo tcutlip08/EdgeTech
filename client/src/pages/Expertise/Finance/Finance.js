@@ -5,19 +5,20 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import FinanceImage from "../../../assets/img/RandomImages/financeImage.jpg";
-import "./Finance.css";
+// import "./Finance.css";
+import "../Expertise.css";
 
 class Finance extends Component {
   render() {
     return (
       <div className="FinancePage">
-        <Jumbotron fluid id="jumbotronImageFinance">
-          <img id="financeImage" src={FinanceImage} alt="financeImg" />
+        <Jumbotron fluid id="jumbotronImage">
+          <img id="Image" src={FinanceImage} alt="financeImg" />
         </Jumbotron>
 
         <Container>
           <Row>
-            <div id="firstPF">
+            <div id="firstP">
               Bagpipes from Baghdad. What's going through my mind. Half the
               time, when I rhyme, or blowing up like. Bagpipes from Baghdad.
               Somebody turn the vacancy sign on. 'Cause I'm gone, blowing on my.
@@ -36,14 +37,14 @@ class Finance extends Component {
           </Row>
         </Container>
 
-        <Jumbotron fluid id="financeTabs">
+        <Jumbotron fluid id="tabs">
           <Container>
             <Row>
-              <Col className="smallIconsFinance">
-                <i className="fas fa-bacon"></i>
-                <Row className="headerSmallIconsFinance">bacon</Row>
+              <Col className="smallIcons">
+                <i className="fas fa-landmark"></i>
+                <Row className="headerSmallIcons">Landmark</Row>
                 <Row>
-                  <h4 id="financeParagraph">
+                  <h4>
                     I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                     Shadys are just imitating. So won't the real Slim Shady
                     please stand up. Please stand up, please stand up?. 'Cause
@@ -51,11 +52,11 @@ class Finance extends Component {
                   </h4>
                 </Row>
               </Col>
-              <Col className="smallIconsFinance">
-                <i className="fab fa-phoenix-squadron"></i>
-                <Row className="headerSmallIconsFinance">phoenix-squadron</Row>
+              <Col className="smallIcons">
+              <i className="fas fa-chart-pie"></i>
+                <Row className="headerSmallIcons">ChartPie</Row>
                 <Row>
-                  <h4 id="financeParagraph">
+                  <h4>
                     I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                     Shadys are just imitating. So won't the real Slim Shady
                     please stand up. Please stand up, please stand up?. 'Cause
@@ -67,10 +68,10 @@ class Finance extends Component {
           </Container>
         </Jumbotron>
 
-        <Container id="financeHeaderWithBullets">
+        <Container id="HeaderWithBullets">
           <Row>
             <Col>
-              <h1 id="splitheaderFinance">Header</h1>
+              <h1 id="splitheader">Header</h1>
               <p>
                 I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                 Shadys are just imitating. So won't the real Slim Shady please
@@ -94,41 +95,41 @@ class Finance extends Component {
             <Col>
               <Row>
                 <Col>
-                  <h1 id="splitheaderFinance">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderFinance">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <h1 id="splitheaderFinance">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderFinance">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
-                    <li id="FpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>

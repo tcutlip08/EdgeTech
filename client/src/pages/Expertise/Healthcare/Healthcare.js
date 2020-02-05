@@ -5,19 +5,20 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import HealthCareImage from "../../../assets/img/RandomImages/healthCare.png";
-import "./Healthcare.css";
+// import "./Healthcare.css";
+import "../Expertise.css";
 
 class Healthcare extends Component {
   render() {
     return (
       <div className="HealthCarePage">
-        <Jumbotron fluid id="jumbotronImageHealthCare">
-          <img id="healthCareImage" src={HealthCareImage} alt="healthcare" />
+        <Jumbotron fluid id="jumbotronImage">
+          <img id="Image" src={HealthCareImage} alt="healthcare" />
         </Jumbotron>
 
         <Container>
           <Row>
-            <div id="firstPHC">
+            <div id="firstP">
               I was gonna take the time to sit down and write you a little
               letter. But I thought a song would probably be a little better.
               Instead of a ,letter. That you'd probably just shred up--yeah. I
@@ -38,12 +39,12 @@ class Healthcare extends Component {
           </Row>
         </Container>
 
-        <Jumbotron fluid id="healthCareTabs">
+        <Jumbotron fluid id="tabs">
           <Container>
             <Row>
-              <Col className="smallIconsHealthCare">
-                <i className="fas fa-bacon"></i>
-                <Row className="headerSmallIconsHealthCare">bacon</Row>
+              <Col className="smallIcons">
+              <i className="fas fa-prescription"></i>
+                <Row className="headerSmallIcons">Prescription</Row>
                 <Row>
                   <h4>
                     I'm Slim Shady, yes, I'm the real Shady. All you other Slim
@@ -53,10 +54,10 @@ class Healthcare extends Component {
                   </h4>
                 </Row>
               </Col>
-              <Col className="smallIconsHealthCare">
-                <i className="fab fa-phoenix-squadron"></i>
-                <Row className="headerSmallIconsHealthCare">
-                  phoenix-squadron
+              <Col className="smallIcons">
+              <i className="fas fa-heartbeat"></i>
+                <Row className="headerSmallIcons">
+                  HeartBeat
                 </Row>
                 <Row>
                   <h4>
@@ -71,10 +72,10 @@ class Healthcare extends Component {
           </Container>
         </Jumbotron>
 
-        <Container id="healthCareHeaderWithBullets">
+        <Container id="HeaderWithBullets">
           <Row>
             <Col>
-              <h1 id="splitheaderHealthCare">Header</h1>
+              <h1 id="splitheader">Header</h1>
               <p>
                 I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                 Shadys are just imitating. So won't the real Slim Shady please
@@ -98,41 +99,41 @@ class Healthcare extends Component {
             <Col>
               <Row>
                 <Col>
-                  <h1 id="splitheaderHealthCare">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderHealthCare">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <h1 id="splitheaderHealthCare">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderHealthCare">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
-                    <li id="HCpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
