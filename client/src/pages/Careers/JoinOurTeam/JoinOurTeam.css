@@ -5,3 +5,14 @@
   flex-flow: row wrap;
   overflow: auto;
 }
+
+#jumbotronImageJoin {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#joinUs {
+  width: 100%;
+  max-height: fit-content;
+}
