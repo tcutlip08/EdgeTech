@@ -11,13 +11,13 @@ class IT extends Component {
   render() {
     return (
       <div className="ITPage">
-        <Jumbotron fluid id="jumbotronImageIT">
-          <img id="iTImage" src={ITImage} alt="IT" />
+        <Jumbotron fluid id="jumbotronImage">
+          <img id="Image" src={ITImage} alt="IT" />
         </Jumbotron>
 
         <Container>
           <Row>
-            <div id="firstPIT">
+            <div id="firstP">
             My tea's gone cold. I'm wondering why I got out of bed at all. The
             morning rain clouds up my window. And I can't see at all. And even if
             I could it'd all be gray. But your picture on my wall. It reminds me
@@ -35,12 +35,12 @@ class IT extends Component {
           </Row>
         </Container>
 
-        <Jumbotron fluid id="iTTabs">
+        <Jumbotron fluid id="tabs">
           <Container>
             <Row>
-              <Col className="smallIconsIT">
-                <i className="fas fa-bacon"></i>
-                <Row className="headerSmallIconsIT">bacon</Row>
+              <Col className="smallIcons">
+              <i className="fas fa-cogs"></i>
+                <Row className="headerSmallIcons">Cogs</Row>
                 <Row>
                   <h4>
                     I'm Slim Shady, yes, I'm the real Shady. All you other Slim
@@ -50,10 +50,10 @@ class IT extends Component {
                   </h4>
                 </Row>
               </Col>
-              <Col className="smallIconsIT">
-                <i className="fab fa-phoenix-squadron"></i>
-                <Row className="headerSmallIconsIT">
-                  phoenix-squadron
+              <Col className="smallIcons">
+              <i className="fab fa-unity"></i>
+                <Row className="headerSmallIcons">
+                  Unity
                 </Row>
                 <Row>
                   <h4>
@@ -68,10 +68,10 @@ class IT extends Component {
           </Container>
         </Jumbotron>
 
-        <Container id="iTHeaderWithBullets">
+        <Container id="HeaderWithBullets">
           <Row>
             <Col>
-              <h1 id="splitheaderIT">Header</h1>
+              <h1 id="splitheader">Header</h1>
               <p>
                 I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                 Shadys are just imitating. So won't the real Slim Shady please
@@ -95,41 +95,41 @@ class IT extends Component {
             <Col>
               <Row>
                 <Col>
-                  <h1 id="splitheaderIT">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderIT">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <h1 id="splitheaderIT">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderIT">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
-                    <li id="ITpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>

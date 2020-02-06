@@ -5,19 +5,20 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import EngineeringImage from "../../../assets/img/RandomImages/engineeringBlueprint.jpg";
-import "./Engineering.css";
+// import "./Engineering.css";
+import "../Expertise.css";
 
 class Engineering extends Component {
   render() {
     return (
       <div className="EngineeringPage">
-        <Jumbotron fluid id="jumbotronImageEngineering">
-          <img id="engineeringImage" src={EngineeringImage} alt="engineImg" />
+        <Jumbotron fluid id="jumbotronImage">
+          <img id="Image" src={EngineeringImage} alt="engineImg" />
         </Jumbotron>
 
         <Container>
           <Row>
-            <div id="firstPE">
+            <div id="firstP">
               Feminist women love Eminem. "Chicka, chicka, chicka, Slim Shady,
               I'm sick of him. Look at him, walkin' around, grabbin' his
               you-know-what. Flippin' the you-know-who," "Yeah, but he's so cute
@@ -35,12 +36,12 @@ class Engineering extends Component {
           </Row>
         </Container>
 
-        <Jumbotron fluid id="engineeringTabs">
+        <Jumbotron fluid id="tabs">
           <Container>
             <Row>
-              <Col className="smallIconsEngineering">
-                <i className="fas fa-bacon"></i>
-                <Row className="headerSmallIconsEngineering">bacon</Row>
+              <Col className="smallIcons">
+                <i className="fas fa-drafting-compass"></i>
+                <Row className="headerSmallIcons">DraftingCompass</Row>
                 <Row>
                   <h4>
                     I'm Slim Shady, yes, I'm the real Shady. All you other Slim
@@ -50,10 +51,10 @@ class Engineering extends Component {
                   </h4>
                 </Row>
               </Col>
-              <Col className="smallIconsEngineering">
-                <i className="fab fa-phoenix-squadron"></i>
-                <Row className="headerSmallIconsEngineering">
-                  phoenix-squadron
+              <Col className="smallIcons">
+                <i className="fas fa-pencil-ruler"></i>
+                <Row className="headerSmallIcons">
+                  PencilRuler
                 </Row>
                 <Row>
                   <h4>
@@ -68,10 +69,10 @@ class Engineering extends Component {
           </Container>
         </Jumbotron>
 
-        <Container id="engineeringHeaderWithBullets">
+        <Container id="HeaderWithBullets">
           <Row>
             <Col>
-              <h1 id="splitheaderEngineering">Header</h1>
+              <h1 id="splitheader">Header</h1>
               <p>
                 I'm Slim Shady, yes, I'm the real Shady. All you other Slim
                 Shadys are just imitating. So won't the real Slim Shady please
@@ -95,41 +96,41 @@ class Engineering extends Component {
             <Col>
               <Row>
                 <Col>
-                  <h1 id="splitheaderEngineering">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderEngineering">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <h1 id="splitheaderEngineering">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
                 <Col>
-                  <h1 id="splitheaderEngineering">Header</h1>
+                  <h1 id="splitheader">Header</h1>
                   <ul>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
-                    <li id="EpointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
+                    <li id="pointsOfInterest">something</li>
                   </ul>
                 </Col>
               </Row>
