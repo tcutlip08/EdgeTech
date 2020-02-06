@@ -4,6 +4,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Flip from "react-reveal/Flip";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import staffMeetingP from "../../assets/img/RandomImages/staffMeetingP.jpg";
 import "./Landing.css";
 
@@ -38,20 +41,22 @@ class Landing extends Component {
           </Row>
         </Container>
 
-        <Jumbotron fluid id="jumbotronImageStudents">
-          <Container id="fluidContainerL">
-            <h1>Fluid jumbotron</h1>
-            <p>
-              This is a modified jumbotron that occupies the entire horizontal
-              space of its parent.
-            </p>
-            <br />
-            <p>
-              This is a modified jumbotron with a break in between the 2
-              sentences.
-            </p>
-          </Container>
-        </Jumbotron>
+        <Zoom delay={1500} duration={1200}>
+          <Jumbotron fluid id="jumbotronImageStudents">
+            <Container id="fluidContainerL">
+              <h1>Fluid jumbotron</h1>
+              <p>
+                This is a modified jumbotron that occupies the entire horizontal
+                space of its parent.
+              </p>
+              <br />
+              <p>
+                This is a modified jumbotron with a break in between the 2
+                sentences.
+              </p>
+            </Container>
+          </Jumbotron>
+        </Zoom>
 
         <Container>
           <Row>
@@ -79,36 +84,60 @@ class Landing extends Component {
         <Container>
           <Row>
             <Col className="smallIconsL">
-              <i className="fab fa-battle-net"></i>
-              <Row className="headerSmallIconsL">battle-net</Row>
-              <Row className="insertSmallIconsL">
-                Something, Something, Something, Something, Something,
-                Something, Something, Something
-              </Row>
+              <Flip delay={900} duration={1000}>
+                <i className="fab fa-battle-net"></i>
+              </Flip>
+              <Fade delay={900} duration={1000}>
+                <Row className="headerSmallIconsL">battle-net</Row>
+              </Fade>
+              <Fade delay={900} duration={1000}>
+                <Row className="insertSmallIconsL">
+                  Something, Something, Something, Something, Something,
+                  Something, Something, Something
+                </Row>
+              </Fade>
             </Col>
             <Col className="smallIconsL">
-              <i className="fas fa-atom"></i>
-              <Row className="headerSmallIconsL">atom</Row>
-              <Row className="insertSmallIconsL">
-                Something, Something, Something, Something, Something,
-                Something, Something, Something
-              </Row>
+              <Flip delay={1000} duration={1000}>
+                <i className="fas fa-atom"></i>
+              </Flip>
+              <Fade delay={1000} duration={1000}>
+                <Row className="headerSmallIconsL">atom</Row>
+              </Fade>
+              <Fade delay={1000} duration={1000}>
+                <Row className="insertSmallIconsL">
+                  Something, Something, Something, Something, Something,
+                  Something, Something, Something
+                </Row>
+              </Fade>
             </Col>
             <Col className="smallIconsL">
-              <i className="fas fa-biohazard"></i>
-              <Row className="headerSmallIconsL">biohazard</Row>
-              <Row className="insertSmallIconsL">
-                Something, Something, Something, Something, Something,
-                Something, Something, Something
-              </Row>
+              <Flip delay={1100} duration={1000}>
+                <i className="fas fa-biohazard"></i>
+              </Flip>
+              <Fade delay={1100} duration={1000}>
+                <Row className="headerSmallIconsL">biohazard</Row>
+              </Fade>
+              <Fade delay={1100} duration={1000}>
+                <Row className="insertSmallIconsL">
+                  Something, Something, Something, Something, Something,
+                  Something, Something, Something
+                </Row>
+              </Fade>
             </Col>
             <Col className="smallIconsL">
-              <i className="fas fa-graduation-cap"></i>
-              <Row className="headerSmallIconsL">graduation-cap</Row>
-              <Row className="insertSmallIconsL">
-                Something, Something, Something, Something, Something,
-                Something, Something, Something
-              </Row>
+              <Flip delay={1200} duration={1000}>
+                <i className="fas fa-graduation-cap"></i>
+              </Flip>
+              <Fade delay={1200} duration={1000}>
+                <Row className="headerSmallIconsL">graduation-cap</Row>
+              </Fade>
+              <Fade delay={1200} duration={1000}>
+                <Row className="insertSmallIconsL">
+                  Something, Something, Something, Something, Something,
+                  Something, Something, Something
+                </Row>
+              </Fade>
             </Col>
           </Row>
         </Container>
