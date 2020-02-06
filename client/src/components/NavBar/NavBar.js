@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Col from "react-bootstrap/Col";
-import Logo from "../../assets/img/Logo.jpg";
+import Logo from "../../assets/img/LogoLightGrey.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
