@@ -41,7 +41,7 @@ class Landing extends Component {
           </Row>
         </Container>
 
-        <Zoom delay={1500} duration={1200}>
+        <Zoom delay={3500} duration={1200}>
           <Jumbotron fluid id="jumbotronImageStudents">
             <Container id="fluidContainerL">
               <h1>Fluid jumbotron</h1>

@@ -3,18 +3,41 @@ import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
 import Container from "react-bootstrap/Container";
+// import Jumbotron from "react-bootstrap/Jumbotron";
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
+import Rotate from "react-reveal/Rotate";
+import Bounce from "react-reveal/Bounce";
 import Employee1 from "../../../assets/img/RandomImages/employee1.png";
 import Employee2 from "../../../assets/img/RandomImages/employee2.jpg";
 import Employee3 from "../../../assets/img/RandomImages/employee3.jpg";
 import TheBoss from "../../../assets/img/RandomImages/theBoss.png";
+// import JoinUs from "../../../assets/img/RandomImages/mathFinanceImage1.png";
 import "./JoinOurTeam.css";
 
 class JoinOurTeam extends Component {
   render() {
     return (
       <div className="JoinOurTeam">
+        <Bounce top cascade delay={500}>
+          <Container id="boss">
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={TheBoss} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Container>
+        </Bounce>
+
+        <br />
+        <hr />
+        <br />
+
         <Container>
           When you walked through the door. It was clear to me (Clear to me).
           You’re the one they adore. Who they came to see (Who they came to
@@ -30,107 +53,106 @@ class JoinOurTeam extends Component {
           ain't that hard, that hard. Everybody want the key and the secret. To
           rap immortality like I have got.
         </Container>
-        <hr />
-        <br />
-
-        <Container id="boss">
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={TheBoss} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Container>
 
         <br />
         <hr />
+        <br />
+        <br />
         <br />
 
         <CardColumns>
-          <Card>
-            <Card.Img variant="top" src={Employee2} />
-            <Card.Body>
-              <Card.Title>Card title that wraps to a new line</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Rotate top left cascade delay={3000} duration={1800}>
+            <Card>
+              <Card.Img variant="top" src={Employee2} />
+              <Card.Body>
+                <Card.Title>Card title that wraps to a new line</Card.Title>
+                <Card.Text>
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Rotate>
 
-          <Card className="p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante.
-              </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in{" "}
-                  <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
+          <Rotate top left cascade delay={1000} duration={1000}>
+            <Card className="p-3">
+              <blockquote className="blockquote mb-0 card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+                <footer className="blockquote-footer">
+                  <small className="text-muted">
+                    Someone famous in{" "}
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </Card>
+          </Rotate>
 
-          <Card>
-            <Card.Img variant="top" src={Employee1} />
-            <Card.Body>
-              <Card.Title>Card title that wraps to a new line</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Bounce top cascade delay={3000} duration={1800}>
+            <Card>
+              <Card.Img variant="top" src={Employee1} />
+              <Card.Body>
+                <Card.Title>Card title that wraps to a new line</Card.Title>
+                <Card.Text>
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Bounce>
 
-          <Card className="p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante.
-              </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in{" "}
-                  <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
+          <Bounce top cascade delay={1000} duration={1000}>
+            <Card className="p-3">
+              <blockquote className="blockquote mb-0 card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+                <footer className="blockquote-footer">
+                  <small className="text-muted">
+                    Someone famous in{" "}
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </Card>
+          </Bounce>
 
-          <Card>
-            <Card.Img variant="top" src={Employee3} />
-            <Card.Body>
-              <Card.Title>Card title that wraps to a new line</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Rotate top right cascade delay={3000} duration={1800}>
+            <Card>
+              <Card.Img variant="top" src={Employee3} />
+              <Card.Body>
+                <Card.Title>Card title that wraps to a new line</Card.Title>
+                <Card.Text>
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Rotate>
 
-          <Card className="p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante.
-              </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in{" "}
-                  <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
+          <Rotate top right cascade delay={1000} duration={1000}>
+            <Card className="p-3">
+              <blockquote className="blockquote mb-0 card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+                <footer className="blockquote-footer">
+                  <small className="text-muted">
+                    Someone famous in{" "}
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </Card>
+          </Rotate>
         </CardColumns>
       </div>
     );
@@ -138,3 +160,7 @@ class JoinOurTeam extends Component {
 }
 
 export default JoinOurTeam;
+
+// <Jumbotron fluid id="jumbotronImageJoin">
+//   <img id="joinUs" src={JoinUs} alt="Join Us" />
+// </Jumbotron>
