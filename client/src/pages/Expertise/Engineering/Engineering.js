@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Flip from "react-reveal/Flip";
 import EngineeringImage from "../../../assets/img/RandomImages/engineeringBlueprint.jpg";
 // import "./Engineering.css";
 import "../Expertise.css";
@@ -12,9 +13,15 @@ class Engineering extends Component {
   render() {
     return (
       <div className="EngineeringPage">
+        <br />
+        <br />
+
         <Jumbotron fluid id="jumbotronImage">
           <img id="Image" src={EngineeringImage} alt="engineImg" />
         </Jumbotron>
+
+        <br />
+        <br />
 
         <Container>
           <Row>
@@ -36,38 +43,50 @@ class Engineering extends Component {
           </Row>
         </Container>
 
-        <Jumbotron fluid id="tabs">
-          <Container>
-            <Row>
-              <Col className="smallIcons">
-                <i className="fas fa-drafting-compass"></i>
-                <Row className="headerSmallIcons">DraftingCompass</Row>
-                <Row>
-                  <h4>
-                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                    Shadys are just imitating. So won't the real Slim Shady
-                    please stand up. Please stand up, please stand up?. 'Cause
-                    I'm Slim Shady, yes, I'm the real Shady.
-                  </h4>
-                </Row>
-              </Col>
-              <Col className="smallIcons">
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div>
+          <Jumbotron fluid id="tabs">
+            <Container>
+              <Row>
+                <Col className="smallIcons">
+                  <Flip ssrFadeout delay={1200} duration={1000}>
+                    <i className="fas fa-drafting-compass"></i>
+                  </Flip>
+                  <Row className="headerSmallIcons">DraftingCompass</Row>
+                  <Row>
+                    <h4>
+                      I'm Slim Shady, yes, I'm the real Shady. All you other
+                      Slim Shadys are just imitating. So won't the real Slim
+                      Shady please stand up. Please stand up, please stand up?.
+                      'Cause I'm Slim Shady, yes, I'm the real Shady.
+                    </h4>
+                  </Row>
+                </Col>
+                <Col className="smallIcons">
+                <Flip ssrFadeout delay={1500} duration={1000}>
                 <i className="fas fa-pencil-ruler"></i>
-                <Row className="headerSmallIcons">
-                  PencilRuler
-                </Row>
-                <Row>
-                  <h4>
-                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                    Shadys are just imitating. So won't the real Slim Shady
-                    please stand up. Please stand up, please stand up?. 'Cause
-                    I'm Slim Shady, yes, I'm the real Shady.
-                  </h4>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </Jumbotron>
+                </Flip>
+                <Row className="headerSmallIcons">PencilRuler</Row>
+                  <Row>
+                    <h4>
+                      I'm Slim Shady, yes, I'm the real Shady. All you other
+                      Slim Shadys are just imitating. So won't the real Slim
+                      Shady please stand up. Please stand up, please stand up?.
+                      'Cause I'm Slim Shady, yes, I'm the real Shady.
+                    </h4>
+                  </Row>
+                </Col>
+              </Row>
+            </Container>
+          </Jumbotron>
+        </div>
+
+        <br />
+        <br />
 
         <Container id="HeaderWithBullets">
           <Row>

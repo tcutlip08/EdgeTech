@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Flip from "react-reveal/Flip";
 import FinanceImage from "../../../assets/img/RandomImages/financeImage.jpg";
 // import "./Finance.css";
 import "../Expertise.css";
@@ -12,9 +13,15 @@ class Finance extends Component {
   render() {
     return (
       <div className="FinancePage">
+        <br />
+        <br />
+
         <Jumbotron fluid id="jumbotronImage">
           <img id="Image" src={FinanceImage} alt="financeImg" />
         </Jumbotron>
+
+        <br />
+        <br />
 
         <Container>
           <Row>
@@ -31,42 +38,55 @@ class Finance extends Component {
               Eminem. "Chicka, chicka, chicka, Slim Shady, I'm sick of him. Look
               at him, walkin' around, grabbin' his you-know-what. Flippin' the
               you-know-who," "Yeah, but he's so cute though.". Yeah, I probably
-              got a couple of screws up in my head loose. But no worse than
-              what's goin' on in your parents' bedrooms.
+              got a couple of screws up in my head loose.
             </div>
           </Row>
         </Container>
 
-        <Jumbotron fluid id="tabs">
-          <Container>
-            <Row>
-              <Col className="smallIcons">
-                <i className="fas fa-landmark"></i>
-                <Row className="headerSmallIcons">Landmark</Row>
-                <Row>
-                  <h4>
-                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                    Shadys are just imitating. So won't the real Slim Shady
-                    please stand up. Please stand up, please stand up?. 'Cause
-                    I'm Slim Shady, yes, I'm the real Shady.
-                  </h4>
-                </Row>
-              </Col>
-              <Col className="smallIcons">
-              <i className="fas fa-chart-pie"></i>
-                <Row className="headerSmallIcons">ChartPie</Row>
-                <Row>
-                  <h4>
-                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                    Shadys are just imitating. So won't the real Slim Shady
-                    please stand up. Please stand up, please stand up?. 'Cause
-                    I'm Slim Shady, yes, I'm the real Shady.
-                  </h4>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </Jumbotron>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div>
+          <Jumbotron fluid id="tabs">
+            <Container>
+              <Row>
+                <Col className="smallIcons">
+                  <Flip ssrFadeout delay={1200} duration={1000}>
+                    <i className="fas fa-landmark"></i>
+                  </Flip>
+                  <Row className="headerSmallIcons">Landmark</Row>
+                  <Row>
+                    <h4>
+                      I'm Slim Shady, yes, I'm the real Shady. All you other
+                      Slim Shadys are just imitating. So won't the real Slim
+                      Shady please stand up. Please stand up, please stand up?.
+                      'Cause I'm Slim Shady, yes, I'm the real Shady.
+                    </h4>
+                  </Row>
+                </Col>
+                <Col className="smallIcons">
+                  <Flip ssrFadeout delay={1500} duration={1000}>
+                    <i className="fas fa-chart-pie"></i>
+                  </Flip>
+                  <Row className="headerSmallIcons">ChartPie</Row>
+                  <Row>
+                    <h4>
+                      I'm Slim Shady, yes, I'm the real Shady. All you other
+                      Slim Shadys are just imitating. So won't the real Slim
+                      Shady please stand up. Please stand up, please stand up?.
+                      'Cause I'm Slim Shady, yes, I'm the real Shady.
+                    </h4>
+                  </Row>
+                </Col>
+              </Row>
+            </Container>
+          </Jumbotron>
+        </div>
+
+        <br />
+        <br />
 
         <Container id="HeaderWithBullets">
           <Row>
