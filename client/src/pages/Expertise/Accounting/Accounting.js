@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Flip from "react-reveal/Flip";
+// import Fade from "react-reveal/Fade";
 import AccountingImage from "../../../assets/img/RandomImages/AI-accounting-finance-blog-min.jpg";
 // import "./Accounting.css";
 import "../Expertise.css";
@@ -13,6 +14,7 @@ class Accounting extends Component {
   render() {
     return (
       <div className="AccountingPage">
+      
         <br />
         <br />
 

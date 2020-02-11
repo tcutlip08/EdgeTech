@@ -9,6 +9,7 @@ import Container from "react-bootstrap/Container";
 import Rotate from "react-reveal/Rotate";
 import Bounce from "react-reveal/Bounce";
 import Pulse from "react-reveal/Pulse";
+// import Fade from "react-reveal/Fade";
 import Employee1 from "../../../assets/img/RandomImages/employee1.png";
 import Employee2 from "../../../assets/img/RandomImages/employee2.jpg";
 import Employee3 from "../../../assets/img/RandomImages/employee3.jpg";
@@ -172,7 +173,3 @@ class JoinOurTeam extends Component {
 }
 
 export default JoinOurTeam;
-
-// <Jumbotron fluid id="jumbotronImageJoin">
-//   <img id="joinUs" src={JoinUs} alt="Join Us" />
-// </Jumbotron>

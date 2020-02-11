@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+// import Zoom from "react-reveal/Zoom";
 import staffMeetingP from "../../assets/img/RandomImages/staffMeetingP.jpg";
 import "./Landing.css";
 
@@ -51,7 +51,7 @@ class Landing extends Component {
         <br />
 
         <div>
-          <Zoom ssrFadeout delay={1500} duration={1200}>
+          <Fade ssrFadeout up delay={1500} duration={1200}>
             <Jumbotron fluid id="jumbotronImageStudents">
               <Container id="fluidContainerL">
                 <h1>Fluid jumbotron</h1>
@@ -66,7 +66,7 @@ class Landing extends Component {
                 </p>
               </Container>
             </Jumbotron>
-          </Zoom>
+          </Fade>
         </div>
 
         <br />
@@ -105,12 +105,12 @@ class Landing extends Component {
           <Row>
             <Col className="smallIconsL">
               <Flip ssrFadeout delay={900} duration={1000}>
-                <i className="fab fa-battle-net"></i>
+                <i className="fas fa-chart-pie"></i>
               </Flip>
-              <Fade ssrFadeout delay={900} duration={1000}>
-                <Row className="headerSmallIconsL">battle-net</Row>
+              <Fade ssrFadeout up delay={900} duration={1000}>
+                <Row className="headerSmallIconsL">chart-pie</Row>
               </Fade>
-              <Fade ssrFadeout delay={900} duration={1000}>
+              <Fade ssrFadeout up delay={900} duration={1000}>
                 <Row className="insertSmallIconsL">
                   Something, Something, Something, Something, Something,
                   Something, Something, Something
@@ -119,12 +119,12 @@ class Landing extends Component {
             </Col>
             <Col className="smallIconsL">
               <Flip ssrFadeout delay={1000} duration={1000}>
-                <i className="fas fa-atom"></i>
+                <i className="fas fa-drafting-compass"></i>
               </Flip>
-              <Fade ssrFadeout delay={1000} duration={1000}>
-                <Row className="headerSmallIconsL">atom</Row>
+              <Fade ssrFadeout up delay={1000} duration={1000}>
+                <Row className="headerSmallIconsL">drafting-compass</Row>
               </Fade>
-              <Fade ssrFadeout delay={1000} duration={1000}>
+              <Fade ssrFadeout up delay={1000} duration={1000}>
                 <Row className="insertSmallIconsL">
                   Something, Something, Something, Something, Something,
                   Something, Something, Something
@@ -133,12 +133,12 @@ class Landing extends Component {
             </Col>
             <Col className="smallIconsL">
               <Flip ssrFadeout delay={1100} duration={1000}>
-                <i className="fas fa-biohazard"></i>
+                <i className="fas fa-prescription"></i>
               </Flip>
-              <Fade ssrFadeout delay={1100} duration={1000}>
-                <Row className="headerSmallIconsL">biohazard</Row>
+              <Fade ssrFadeout up delay={1100} duration={1000}>
+                <Row className="headerSmallIconsL">prescription</Row>
               </Fade>
-              <Fade ssrFadeout delay={1100} duration={1000}>
+              <Fade ssrFadeout up delay={1100} duration={1000}>
                 <Row className="insertSmallIconsL">
                   Something, Something, Something, Something, Something,
                   Something, Something, Something
@@ -149,10 +149,10 @@ class Landing extends Component {
               <Flip ssrFadeout delay={1200} duration={1000}>
                 <i className="fas fa-graduation-cap"></i>
               </Flip>
-              <Fade ssrFadeout delay={1200} duration={1000}>
+              <Fade ssrFadeout up delay={1200} duration={1000}>
                 <Row className="headerSmallIconsL">graduation-cap</Row>
               </Fade>
-              <Fade ssrFadeout delay={1200} duration={1000}>
+              <Fade ssrFadeout up delay={1200} duration={1000}>
                 <Row className="insertSmallIconsL">
                   Something, Something, Something, Something, Something,
                   Something, Something, Something
