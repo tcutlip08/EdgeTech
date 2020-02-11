@@ -8,6 +8,8 @@ import Container from "react-bootstrap/Container";
 // import Col from "react-bootstrap/Col";
 import Rotate from "react-reveal/Rotate";
 import Bounce from "react-reveal/Bounce";
+import Pulse from "react-reveal/Pulse";
+// import Fade from "react-reveal/Fade";
 import Employee1 from "../../../assets/img/RandomImages/employee1.png";
 import Employee2 from "../../../assets/img/RandomImages/employee2.jpg";
 import Employee3 from "../../../assets/img/RandomImages/employee3.jpg";
@@ -19,7 +21,12 @@ class JoinOurTeam extends Component {
   render() {
     return (
       <div className="JoinOurTeam">
-        <Bounce top cascade delay={500}>
+
+      <br />
+      <br />
+      <br />
+
+        <Pulse ssrFadeout top cascade delay={750}>
           <Container id="boss">
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={TheBoss} />
@@ -32,10 +39,14 @@ class JoinOurTeam extends Component {
               </Card.Body>
             </Card>
           </Container>
-        </Bounce>
+        </Pulse>
 
         <br />
+        <br />
+        <br />
         <hr />
+        <br />
+        <br />
         <br />
 
         <Container>
@@ -55,13 +66,15 @@ class JoinOurTeam extends Component {
         </Container>
 
         <br />
+        <br />
+        <br />
         <hr />
         <br />
         <br />
         <br />
 
         <CardColumns>
-          <Rotate top left cascade delay={3000} duration={1800}>
+          <Rotate ssrFadeout top left cascade delay={750} duration={920}>
             <Card>
               <Card.Img variant="top" src={Employee2} />
               <Card.Body>
@@ -75,7 +88,7 @@ class JoinOurTeam extends Component {
             </Card>
           </Rotate>
 
-          <Rotate top left cascade delay={1000} duration={1000}>
+          <Rotate ssrFadeout top left cascade delay={750} duration={920}>
             <Card className="p-3">
               <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -92,7 +105,7 @@ class JoinOurTeam extends Component {
             </Card>
           </Rotate>
 
-          <Bounce top cascade delay={3000} duration={1800}>
+          <Bounce ssrFadeout top cascade delay={750} duration={920}>
             <Card>
               <Card.Img variant="top" src={Employee1} />
               <Card.Body>
@@ -106,7 +119,7 @@ class JoinOurTeam extends Component {
             </Card>
           </Bounce>
 
-          <Bounce top cascade delay={1000} duration={1000}>
+          <Bounce ssrFadeout top cascade delay={750} duration={920}>
             <Card className="p-3">
               <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -123,7 +136,7 @@ class JoinOurTeam extends Component {
             </Card>
           </Bounce>
 
-          <Rotate top right cascade delay={3000} duration={1800}>
+          <Rotate ssrFadeout top right cascade delay={750} duration={920}>
             <Card>
               <Card.Img variant="top" src={Employee3} />
               <Card.Body>
@@ -137,7 +150,7 @@ class JoinOurTeam extends Component {
             </Card>
           </Rotate>
 
-          <Rotate top right cascade delay={1000} duration={1000}>
+          <Rotate ssrFadeout top right cascade delay={750} duration={920}>
             <Card className="p-3">
               <blockquote className="blockquote mb-0 card-body">
                 <p>
@@ -160,7 +173,3 @@ class JoinOurTeam extends Component {
 }
 
 export default JoinOurTeam;
-
-// <Jumbotron fluid id="jumbotronImageJoin">
-//   <img id="joinUs" src={JoinUs} alt="Join Us" />
-// </Jumbotron>

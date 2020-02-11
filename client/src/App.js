@@ -1,5 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// react-reveal server-side rendering to prevent flickering
+// import config from 'react-reveal/globals';
+// config({ ssrFadeout: true });
 // Components
 import NavBar from "./components/NavBar/NavBar";
 // import NavBarBurger from "./components/NavBarBurger/NavBarBurger";

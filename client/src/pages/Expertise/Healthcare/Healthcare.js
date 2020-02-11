@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Flip from "react-reveal/Flip";
 import HealthCareImage from "../../../assets/img/RandomImages/healthCare.png";
 // import "./Healthcare.css";
 import "../Expertise.css";
@@ -12,9 +13,15 @@ class Healthcare extends Component {
   render() {
     return (
       <div className="HealthCarePage">
+        <br />
+        <br />
+
         <Jumbotron fluid id="jumbotronImage">
           <img id="Image" src={HealthCareImage} alt="healthcare" />
         </Jumbotron>
+
+        <br />
+        <br />
 
         <Container>
           <Row>
@@ -32,45 +39,51 @@ class Healthcare extends Component {
               take you for a spin. What you mean we ain't fuckin’? You take me
               for a friend?. Let me tell you the whole story of Shady’s
               origin.I'm not afraid to take a stand. Everybody, come take my
-              hand. We'll walk this road together, through the storm. Whatever
-              weather, cold or warm. Just lettin' you know that you're not
-              alone. Holla if you feel like you've been down the same road.
             </div>
           </Row>
         </Container>
 
-        <Jumbotron fluid id="tabs">
-          <Container>
-            <Row>
-              <Col className="smallIcons">
-              <i className="fas fa-prescription"></i>
-                <Row className="headerSmallIcons">Prescription</Row>
-                <Row>
-                  <h4>
-                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                    Shadys are just imitating. So won't the real Slim Shady
-                    please stand up. Please stand up, please stand up?. 'Cause
-                    I'm Slim Shady, yes, I'm the real Shady.
-                  </h4>
-                </Row>
-              </Col>
-              <Col className="smallIcons">
-              <i className="fas fa-heartbeat"></i>
-                <Row className="headerSmallIcons">
-                  HeartBeat
-                </Row>
-                <Row>
-                  <h4>
-                    I'm Slim Shady, yes, I'm the real Shady. All you other Slim
-                    Shadys are just imitating. So won't the real Slim Shady
-                    please stand up. Please stand up, please stand up?. 'Cause
-                    I'm Slim Shady, yes, I'm the real Shady.
-                  </h4>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </Jumbotron>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div>
+          <Jumbotron fluid id="tabs">
+            <Container>
+              <Row>
+                <Col className="smallIcons">
+                  <Flip ssrFadeout delay={1200} duration={1000}>
+                    <i className="fas fa-prescription"></i>
+                  </Flip>
+                  <Row className="headerSmallIcons">Prescription</Row>
+                  <Row>
+                    <h4>
+                      I'm Slim Shady, yes, I'm the real Shady. All you other
+                      Slim Shadys are just imitating. So won't the real Slim
+                      Shady please stand up. Please stand up, please stand up?.
+                      'Cause I'm Slim Shady, yes, I'm the real Shady.
+                    </h4>
+                  </Row>
+                </Col>
+                <Col className="smallIcons">
+                  <Flip ssrFadeout delay={1200} duration={1000}>
+                    <i className="fas fa-heartbeat"></i>
+                  </Flip>
+                  <Row className="headerSmallIcons">HeartBeat</Row>
+                  <Row>
+                    <h4>
+                      I'm Slim Shady, yes, I'm the real Shady. All you other
+                      Slim Shadys are just imitating. So won't the real Slim
+                      Shady please stand up. Please stand up, please stand up?.
+                      'Cause I'm Slim Shady, yes, I'm the real Shady.
+                    </h4>
+                  </Row>
+                </Col>
+              </Row>
+            </Container>
+          </Jumbotron>
+        </div>
 
         <Container id="HeaderWithBullets">
           <Row>
