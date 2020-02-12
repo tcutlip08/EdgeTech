@@ -44,7 +44,14 @@ class FindingTalent extends Component {
         <Row className="justify-content-md-center">
           {this.state.posts ? (
             this.state.posts.map(card => {
-              return <CardPost title={`${card.first} ${card.last}`} />;
+              return (
+                <CardPost
+                  title={`${card.first} ${card.last}`}
+                  phone={card.phone}
+                  email={card.email}
+                  description={"Enter Job Type Here"}
+                />
+              );
             })
           ) : (
             <>Loading</>
