@@ -48,9 +48,7 @@ class Finance extends Component {
         <br />
         <br />
 
-        <div>
           <Jumbotron fluid id="tabs">
-            <Container>
               <Row>
                 <Col className="smallIcons">
                   <Flip ssrFadeout delay={1200} duration={1000}>
@@ -81,9 +79,7 @@ class Finance extends Component {
                   </Row>
                 </Col>
               </Row>
-            </Container>
           </Jumbotron>
-        </div>
 
         <br />
         <br />
