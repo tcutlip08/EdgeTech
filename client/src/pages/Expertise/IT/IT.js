@@ -39,7 +39,6 @@ class IT extends Component {
         </Container>
 
         <Jumbotron fluid id="tabs">
-          <Container>
             <Row>
               <Col className="smallIcons">
                 <Flip ssrFadeout delay={1200} duration={1000}>
@@ -70,7 +69,6 @@ class IT extends Component {
                 </Row>
               </Col>
             </Row>
-          </Container>
         </Jumbotron>
 
         <Container id="HeaderWithBullets">

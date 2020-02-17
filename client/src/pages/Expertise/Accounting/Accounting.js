@@ -50,9 +50,7 @@ class Accounting extends Component {
         <br />
         <br />
 
-        <div>
           <Jumbotron fluid id="tabs">
-            <Container>
               <Row>
                 <Col className="smallIcons">
                   <Flip ssrFadeout delay={1200} duration={1000}>
@@ -83,9 +81,7 @@ class Accounting extends Component {
                   </Row>
                 </Col>
               </Row>
-            </Container>
           </Jumbotron>
-        </div>
 
         <br />
         <br />
