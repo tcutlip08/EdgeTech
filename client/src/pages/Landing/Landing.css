@@ -62,3 +62,7 @@
   font-size: 1rem;
   margin-bottom: 8rem;
 }
+
+#iconsJumbotron {
+  background-color: white !important;
+}
