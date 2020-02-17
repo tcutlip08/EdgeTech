@@ -7,6 +7,7 @@ class JobPostForm extends Component {
   state = {
     first: "",
     last: "",
+    occupation: "",
     email: "",
     phone: ""
   };
@@ -48,7 +49,7 @@ class JobPostForm extends Component {
   }
 
   clearData() {
-    this.setState({ first: "", last: "", email: "", phone: "" });
+    this.setState({ first: "", last: "", occupation: "", email: "", phone: "" });
     this.props.history.push("/careers/finding-talent");
   }
 
@@ -91,6 +92,23 @@ class JobPostForm extends Component {
                       required
                     />
                   </div>
+
+                  <div className="form-group">
+                    <label className="sr-only" for="occupation">
+                      Occupation *
+                    </label>
+                    <input
+                      className="required form-control"
+                      id="occupation"
+                      name="occupation"
+                      placeholder="Occupation *"
+                      value={this.state.occupation}
+                      onChange={this.handleInputChange}
+                      type="text"
+                      required
+                    />
+                  </div>
+                  
                   <div className="form-group">
                     <label className="sr-only" for="phone">
                       Contact Number

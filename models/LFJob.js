@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const LFJobSchema = new Schema({
   first: { type: String },
   last: { type: String },
+  occupation: {type: String},
   email: { type: String, unique: true },
   phone: { type: String }
 });
