@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // config({ ssrFadeout: true });
 // Components
 import NavBar from "./components/NavBar/NavBar";
-// import NavBarBurger from "./components/NavBarBurger/NavBarBurger";
 import Footer from "./components/Footer/Footer";
 import ScrolltoTop from "./components/ScrolltoTop/ScrolltoTop";
 // Pages Organized by NavBar Tabs
@@ -40,7 +39,6 @@ function App() {
     <Router>
       <ScrolltoTop>
         <NavBar />
-        {/*<NavBarBurger />*/}
         <Switch>
           {/* Home */}
           <Route exact path="/" component={Landing} />

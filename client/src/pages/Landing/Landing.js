@@ -101,7 +101,7 @@ class Landing extends Component {
         <br />
         <br />
 
-        <Container>
+        <Jumbotron id="iconsJumbotron">
           <Row>
             <Col className="smallIconsL">
               <Flip ssrFadeout delay={900} duration={1000}>
@@ -160,7 +160,7 @@ class Landing extends Component {
               </Fade>
             </Col>
           </Row>
-        </Container>
+        </Jumbotron>
       </div>
     );
   }

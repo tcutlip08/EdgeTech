@@ -6,26 +6,22 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Col from "react-bootstrap/Col";
 import Logo from "../../assets/img/LogoLightGrey.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { slide as Menu } from "react-burger-menu";
 import "./NavBar.css";
 
 class NavBar extends Component {
+  showSettings(event) {
+    event.preventDefault();
+  }
+
   render() {
     return (
       <>
-        <Navbar id="navbar">
-          <Col>
-            <Navbar.Brand id="navBrand">
-              <Link to="/">
-                <img id="logo" src={Logo} alt="Logo" />
-              </Link>
-            </Navbar.Brand>
-          </Col>
-
+        <Menu right>
           <Nav className="mr-auto" id="nav">
             <Nav.Link id="home" href="/">
               Home
             </Nav.Link>
-
             <NavDropdown title="Expertise">
               <NavDropdown.Item id="it" href="/expertise/IT">
                 IT
@@ -43,7 +39,6 @@ class NavBar extends Component {
                 Finance
               </NavDropdown.Item>
             </NavDropdown>
-
             <NavDropdown title="Service" id="service">
               <NavDropdown.Item id="contract" href="/service/contract">
                 Contract
@@ -58,7 +53,6 @@ class NavBar extends Component {
                 Direct Hire
               </NavDropdown.Item>
             </NavDropdown>
-
             <NavDropdown title="Careers">
               <NavDropdown.Item id="job-posting" href="/careers/job-posting">
                 Job Posting
@@ -76,7 +70,6 @@ class NavBar extends Component {
                 Join our Team
               </NavDropdown.Item>
             </NavDropdown>
-
             <NavDropdown title="Resources">
               <NavDropdown.Item id="blog" href="/resources/blog">
                 Blog
@@ -91,13 +84,22 @@ class NavBar extends Component {
                 Case Studies
               </NavDropdown.Item>
             </NavDropdown>
-
             <Nav className="mr-auto">
               <Nav.Link id="contact-us" href="/contact-us">
                 Contact Us
               </Nav.Link>
             </Nav>
           </Nav>
+        </Menu>
+        
+        <Navbar id="navbar">
+          <Col>
+            <Navbar.Brand id="navBrand">
+              <Link to="/">
+                <img id="logo" src={Logo} alt="Logo" />
+              </Link>
+            </Navbar.Brand>
+          </Col>
         </Navbar>
         <hr />
       </>
