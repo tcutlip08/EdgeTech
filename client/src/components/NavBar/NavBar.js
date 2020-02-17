@@ -25,38 +25,6 @@ class NavBar extends Component {
             <Nav.Link id="home" href="/">
               Home
             </Nav.Link>
-            <NavDropdown title="Resources">
-              <NavDropdown.Item id="blog" href="/resources/blog">
-                Blog
-              </NavDropdown.Item>
-              <NavDropdown.Item id="faq" href="/resources/faq">
-                FAQ's
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="case-studies"
-                href="/resources/case-studies"
-              >
-                Case Studies
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            <NavDropdown title="Careers">
-              <NavDropdown.Item id="job-posting" href="/careers/job-posting">
-                Job Posting
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="finding-talent"
-                href="/careers/finding-talent"
-              >
-                Find Talent
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="join-our-team"
-                href="/careers/join-our-team"
-              >
-                Join our Team
-              </NavDropdown.Item>
-            </NavDropdown>
 
             <NavDropdown title="Expertise">
               <NavDropdown.Item id="it" href="/expertise/IT">
@@ -90,6 +58,40 @@ class NavBar extends Component {
                 Direct Hire
               </NavDropdown.Item>
             </NavDropdown>
+
+            <NavDropdown title="Careers">
+              <NavDropdown.Item id="job-posting" href="/careers/job-posting">
+                Job Posting
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="finding-talent"
+                href="/careers/finding-talent"
+              >
+                Find Talent
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="join-our-team"
+                href="/careers/join-our-team"
+              >
+                Join our Team
+              </NavDropdown.Item>
+            </NavDropdown>
+
+            <NavDropdown title="Resources">
+              <NavDropdown.Item id="blog" href="/resources/blog">
+                Blog
+              </NavDropdown.Item>
+              <NavDropdown.Item id="faq" href="/resources/faq">
+                FAQ's
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="case-studies"
+                href="/resources/case-studies"
+              >
+                Case Studies
+              </NavDropdown.Item>
+            </NavDropdown>
+
             <Nav className="mr-auto">
               <Nav.Link id="contact-us" href="/contact-us">
                 Contact Us
