@@ -11,12 +11,14 @@ const LFJobSeeds = [
   {
     first: "Timothy",
     last: "Cutlip",
+    occupation: "Master Builder",
     email: "tcutlip08@gmail.com",
     phone: "404-933-5642"
   },
   {
     first: "Jesse",
     last: "McKinney",
+    occupation: "Master Builder",
     email: "solid51308@gmail.com",
     phone: "404-867-5309"
   }
