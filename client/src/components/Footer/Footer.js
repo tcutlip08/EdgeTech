@@ -12,37 +12,11 @@ class Footer extends Component {
         <div className="container">
           <ul className="ct-footer-list text-center-sm">
             <li>
-              <h2 className="ct-footer-list-header">Careers</h2>
-              <ul>
-                <li>
-                  <Link id="footer-link job-posting" to="/careers/job-posting">
-                    Job Posting
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    id="footer-link finding-talent"
-                    to="/careers/finding-talent"
-                  >
-                    Find Talent
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    id="footer-link join-our-team"
-                    to="/careers/join-our-team"
-                  >
-                    Join our Team
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li>
               <h2 className="ct-footer-list-header">Expertise</h2>
               <ul>
                 <li>
-                  <Link id="footer-link accounting" to="/expertise/accounting">
-                    Accounting
+                  <Link id="footer-link it" to="/expertise/IT">
+                    IT
                   </Link>
                 </li>
                 <li>
@@ -54,18 +28,18 @@ class Footer extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link id="footer-link finance" to="/expertise/finance">
-                    Finance
-                  </Link>
-                </li>
-                <li>
                   <Link id="footer-link healthcare" to="/expertise/healthcare">
                     Healthcare
                   </Link>
                 </li>
                 <li>
-                  <Link id="footer-link it" to="/expertise/IT">
-                    I.T.
+                  <Link id="footer-link accounting" to="/expertise/accounting">
+                    Accounting
+                  </Link>
+                </li>
+                <li>
+                  <Link id="footer-link finance" to="/expertise/finance">
+                    Finance
                   </Link>
                 </li>
               </ul>
@@ -94,11 +68,50 @@ class Footer extends Component {
               </ul>
             </li>
             <li>
-              <h2 className="ct-footer-list-header">About</h2>
+              <h2 className="ct-footer-list-header">Careers</h2>
               <ul>
                 <li>
-                  <Link id="footer-link home" to="/">
-                    Home
+                  <Link id="footer-link job-posting" to="/careers/job-posting">
+                    Job Posting
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    id="footer-link finding-talent"
+                    to="/careers/finding-talent"
+                  >
+                    Find Talent
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    id="footer-link join-our-team"
+                    to="/careers/join-our-team"
+                  >
+                    Join our Team
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 className="ct-footer-list-header">Resources</h2>
+              <ul>
+                <li>
+                  <Link id="footer-link blog" to="/resources/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link id="footer-link faq" to="/resources/faq">
+                    FAQ's
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    id="footer-link case-studies"
+                    to="/resources/case-studies"
+                  >
+                    Case Studies
                   </Link>
                 </li>
                 <li>
