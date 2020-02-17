@@ -56,7 +56,7 @@ class IT extends Component {
                 </Row>
               </Col>
               <Col className="smallIcons">
-                <Flip ssrFadeout delay={1200} duration={1000}>
+                <Flip ssrFadeout delay={1500} duration={1000}>
                   <i className="fab fa-unity"></i>
                 </Flip>
                 <Row className="headerSmallIcons">Unity</Row>

@@ -46,16 +46,17 @@ class FindingTalent extends Component {
             this.state.posts.map(card => {
               return (
                 <CardPost
+                  key={card.email}
                   title={`${card.first} ${card.last}`}
                   phone={card.phone}
                   email={card.email}
-                  description={"Enter Job Type Here"}
+                  description={card.occupation}
                 />
               );
             })
           ) : (
-            <div class="spinner-border text-danger" role="status">
-              <span class="sr-only">Loading...</span>
+            <div className="spinner-border text-danger" role="status">
+              <span className="sr-only">Loading...</span>
             </div>
           )}
         </Row>

@@ -51,7 +51,7 @@ class Landing extends Component {
         <br />
 
         <div>
-          <Fade ssrFadeout up delay={1500} duration={1200}>
+          <Fade>
             <Jumbotron fluid id="jumbotronImageStudents">
               <Container id="fluidContainerL">
                 <h1>Fluid jumbotron</h1>
