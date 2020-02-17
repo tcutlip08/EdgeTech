@@ -7,7 +7,10 @@ import Col from "react-bootstrap/Col";
 const CardPost = props => {
   return (
     <Col className="cardPost" xs={3}>
-      {props.title}
+      <div>{props.title}</div>
+      <div>{props.description}</div>
+      <div>{props.email}</div>
+      <div>{props.phone}</div>
     </Col>
   );
 };

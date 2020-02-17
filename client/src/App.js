@@ -10,8 +10,11 @@ import Footer from "./components/Footer/Footer";
 import ScrolltoTop from "./components/ScrolltoTop/ScrolltoTop";
 // Pages Organized by NavBar Tabs
 import Landing from "./pages/Landing/Landing";
-import Blog from "./pages/Blog/Blog";
 import ContactUs from "./pages/ContactUs/ContactUs";
+//Resources
+import Blog from "./pages/Resources/Blog/Blog";
+import FAQ from "./pages/Resources/FAQ/FAQ";
+import CaseStudies from "./pages/Resources/CaseStudies/CaseStudies";
 // Careers
 import JobPosting from "./pages/Careers/JobPosting/JobPosting";
 import JobPostForm from "./pages/Careers/JobPosting/JobPostForm/JobPostForm";
@@ -42,8 +45,10 @@ function App() {
           {/* Home */}
           <Route exact path="/" component={Landing} />
 
-          {/* Blog */}
-          <Route path="/blog" component={Blog} />
+          {/* Resources */}
+          <Route path="/resources/blog" component={Blog} />
+          <Route path="/resources/faq" component={FAQ} />
+          <Route path="/resources/case-studies" component={CaseStudies} />
 
           {/* Careers */}
           <Route

@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Col from "react-bootstrap/Col";
-import Logo from "../../assets/img/Logo.jpg";
+import Logo from "../../assets/img/LogoLightGrey.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
@@ -25,9 +25,21 @@ class NavBar extends Component {
             <Nav.Link id="home" href="/">
               Home
             </Nav.Link>
-            <Nav.Link id="blog" href="/blog">
-              Blog
-            </Nav.Link>
+            <NavDropdown title="Resources">
+              <NavDropdown.Item id="blog" href="/resources/blog">
+                Blog
+              </NavDropdown.Item>
+              <NavDropdown.Item id="faq" href="/resources/faq">
+                FAQ's
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="case-studies"
+                href="/resources/case-studies"
+              >
+                Case Studies
+              </NavDropdown.Item>
+            </NavDropdown>
+
             <NavDropdown title="Careers">
               <NavDropdown.Item id="job-posting" href="/careers/job-posting">
                 Job Posting
@@ -47,20 +59,20 @@ class NavBar extends Component {
             </NavDropdown>
 
             <NavDropdown title="Expertise">
-              <NavDropdown.Item id="accounting" href="/expertise/accounting">
-                Accounting
+              <NavDropdown.Item id="it" href="/expertise/IT">
+                IT
               </NavDropdown.Item>
               <NavDropdown.Item id="engineering" href="/expertise/engineering">
                 Engineering
               </NavDropdown.Item>
-              <NavDropdown.Item id="finance" href="/expertise/finance">
-                Finance
-              </NavDropdown.Item>
               <NavDropdown.Item id="healthcare" href="/expertise/healthcare">
                 Healthcare
               </NavDropdown.Item>
-              <NavDropdown.Item id="it" href="/expertise/IT">
-                I.T.
+              <NavDropdown.Item id="accounting" href="/expertise/accounting">
+                Accounting
+              </NavDropdown.Item>
+              <NavDropdown.Item id="finance" href="/expertise/finance">
+                Finance
               </NavDropdown.Item>
             </NavDropdown>
 

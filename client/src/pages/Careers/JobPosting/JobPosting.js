@@ -17,7 +17,7 @@ class JobPosting extends Component {
   }
 
   componentDidUpdate() {
-    console.log(this.state);
+    console.log(this.state.posts);
   }
 
   getPost() {
@@ -42,10 +42,19 @@ class JobPosting extends Component {
         <Row className="justify-content-md-center">
           {this.state.posts ? (
             this.state.posts.map(card => {
-              return <CardPost title={`${card.company}`} />;
+              return (
+                <CardPost
+                  title={card.company}
+                  phone={card.phone}
+                  email={card.email}
+                  description={`${card.jobTitle}: ${card.detail}`}
+                />
+              );
             })
           ) : (
-            <>Loading</>
+            <div class="spinner-border text-danger" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
           )}
         </Row>
       </Container>

@@ -178,10 +178,6 @@ class ContactUs extends Component {
                 </form>
               </div>
               <div className="col-md-4 contact-info">
-                <div className="phone">
-                  <h2>Call</h2>
-                  <a href="tel:1-800-867-5309">Call Now</a>
-                </div>
                 <div className="email">
                   <h2>Email</h2>
                   {/* <a href="#">info@webcorpco.com</a> */}
